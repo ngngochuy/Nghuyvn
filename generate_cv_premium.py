@@ -212,5 +212,5 @@ pdf.set_font("BeVietnamPro", "I", 8)
 pdf.set_text_color(180, 180, 180)
 pdf.cell(0, 6, "Tạo từ nghuy.vn | Bản quyền Nguyễn Ngọc Huy")
 
-pdf.output("CV_NguyenNgocHuy_ChinhThuc.pdf")
+pdf.output("NguyenNgocHuy_CV.pdf")
 print("Professional IT PDF CV Generated successfully.")
