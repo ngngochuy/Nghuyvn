@@ -175,7 +175,7 @@ main, section { position:relative;z-index:1; }
 .intro-heading { font-family:var(--font-display);font-weight:700;line-height:1.1;margin-bottom:2.5rem;display:flex;flex-direction:column;align-items:center;gap:0.6rem;text-transform:uppercase;letter-spacing:0.08em; }
 .intro-heading-row { display:flex;justify-content:center;gap:0.8rem; }
 .intro-word { display:inline-block;font-size:1.1rem;color:rgb(255,255,255);font-weight:500;letter-spacing:0.1em;opacity:0;transform:translateY(20px) scale(0.9);filter:blur(10px);transition:opacity 0.8s ease,transform 0.8s ease,filter 0.8s ease; }
-.intro-word.highlighted { font-weight:800;background:linear-gradient(135deg, #00D4FF 0%, #0072FF 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent; }
+.intro-word.highlighted { font-weight:800;background:linear-gradient(90deg,#00eeff 0%,#00eeff 35%,#ffffff 50%,#00eeff 65%,#00eeff 100%);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:logo-shine-sweep 1.8s ease-in-out infinite; }
 @media (min-width:768px) { .intro-word { font-size:2.2rem; } }
 .intro-subtext-container { display:flex;justify-content:center;opacity:0;transition:opacity 0.5s ease; }
 .intro-subtext-inner { display:flex;align-items:center;gap:0.75rem;padding:0.625rem 1.25rem;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.05);border-radius:9999px;font-family:var(--font-mono);font-size:0.875rem;color:var(--text-muted); }
@@ -306,7 +306,7 @@ main, section { position:relative;z-index:1; }
 @media (min-width:1024px) { .about-top-grid { grid-template-columns:1.2fr 0.8fr; } }
 .about-bio-content { display:flex;flex-direction:column;gap:1.25rem;text-align:left;align-items:flex-start; }
 .about-hello { font-family:var(--font-display);font-size:1.25rem;font-weight:600;color:var(--accent);margin-bottom:-0.25rem; }
-.about-name { font-family:var(--font-display);font-size:2.75rem;font-weight:700;line-height:1.1;color:white;margin-bottom:0.75rem;letter-spacing:-0.01em; }
+.about-name { font-family:var(--font-display);font-size:2.75rem;font-weight:800;line-height:1.1;margin-bottom:0.75rem;letter-spacing:-0.01em;background:linear-gradient(90deg,#00eeff 0%,#00eeff 35%,#ffffff 50%,#00eeff 65%,#00eeff 100%);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:logo-shine-sweep 1.8s ease-in-out infinite; }
 .about-description { font-size:1rem;line-height:1.7;color:var(--text-muted);max-width:36rem; }
 .about-buttons { display:flex;gap:1.5rem;margin-top:1rem; }
 .about-avatar-container { display:flex;justify-content:center;align-items:center;position:relative;z-index:10;transition:transform 0.6s cubic-bezier(0.23,1,0.32,1); }
