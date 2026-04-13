@@ -7,14 +7,15 @@ font_url_regular = "https://github.com/google/fonts/raw/main/ofl/bevietnampro/Be
 font_url_bold = "https://github.com/google/fonts/raw/main/ofl/bevietnampro/BeVietnamPro-Bold.ttf"
 font_url_italic = "https://github.com/google/fonts/raw/main/ofl/bevietnampro/BeVietnamPro-Italic.ttf"
 
+# Download fonts if they don't exist
 for f in ["BeVietnamPro-Regular.ttf", "BeVietnamPro-Bold.ttf", "BeVietnamPro-Italic.ttf"]:
     if not os.path.exists(f):
         url = globals()[f"font_url_{f.split('-')[1].split('.')[0].lower()}"]
         urllib.request.urlretrieve(url, f)
 
 # Mask image to circle
-if os.path.exists("Images/image.png"):
-    img = Image.open("Images/image.png").convert("RGBA")
+if os.path.exists("Images/ngochuy.JPEG"):
+    img = Image.open("Images/ngochuy.JPEG").convert("RGBA")
     size = min(img.size)
     img = img.crop(((img.size[0] - size) // 2, (img.size[1] - size) // 2, (img.size[0] + size) // 2, (img.size[1] + size) // 2))
     mask = Image.new('L', img.size, 0)
@@ -33,6 +34,7 @@ class PremiumCV(FPDF):
         pass
 
 pdf = PremiumCV()
+pdf.set_auto_page_break(auto=False)
 pdf.add_page()
 pdf.add_font("BeVietnamPro", "", "BeVietnamPro-Regular.ttf")
 pdf.add_font("BeVietnamPro", "B", "BeVietnamPro-Bold.ttf")
@@ -182,11 +184,11 @@ pdf.set_text_color(70, 70, 70)
 pdf.multi_cell(110, 6.5, "Cung cấp, đảm bảo mã nguồn cho nhiều hệ thống kinh doanh nhỏ gọn, tối ưu API và kiến trúc phần mềm.")
 
 # Footer watermark
-pdf.set_y(285)
+pdf.set_y(283)
 pdf.set_x(LEFT_MARGIN)
 pdf.set_font("BeVietnamPro", "I", 8)
 pdf.set_text_color(180, 180, 180)
 pdf.cell(0, 6, "Tạo từ nghuy.vn | Bản quyền Nguyễn Ngọc Huy")
 
-pdf.output("CV_NguyenNgocHuy_Premium.pdf")
+pdf.output("CV_NgocHuy.pdf")
 print("Premium PDF CV Generated successfully.")
