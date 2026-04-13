@@ -14,9 +14,7 @@ for f in ["BeVietnamPro-Regular.ttf", "BeVietnamPro-Bold.ttf", "BeVietnamPro-Ita
         urllib.request.urlretrieve(url, f)
 
 # Determine the correct image
-img_path = "Images/nguyengochuy.jpg"
-if not os.path.exists(img_path):
-    img_path = "Images/ngochuy.JPEG"
+img_path = "Images/ngochuy.JPEG"
 if not os.path.exists(img_path):
     img_path = "Images/image.png"
 
