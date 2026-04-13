@@ -199,5 +199,5 @@ pdf.set_font("BeVietnamPro", "I", 8)
 pdf.set_text_color(180, 180, 180)
 pdf.cell(0, 6, "Tạo từ nghuy.vn | Bản quyền Nguyễn Ngọc Huy")
 
-pdf.output("Huy_Software_Engineer_CV.pdf")
+pdf.output("CV_NguyenNgocHuy_ChinhThuc.pdf")
 print("Premium PDF CV Generated successfully on 1 page without overlaps.")
