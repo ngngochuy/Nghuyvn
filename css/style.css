@@ -505,9 +505,8 @@ a.contact-info-value:hover { color:var(--accent); }
 .footer-container { max-width:72rem;margin:0 auto;padding:0 1.5rem; }
 .footer-grid { display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:4rem;margin-bottom:4rem; }
 @media (max-width:768px) { .footer-grid { grid-template-columns:1fr;text-align:center;gap:3rem; } .footer-col-brand,.footer-col-social { align-items:center;display:flex;flex-direction:column; } }
-.footer-logo { display:flex;align-items:center;gap:0.75rem; }
-.footer-logo-text { font-family:var(--font-display);font-size:1.25rem;font-weight:700;color:var(--text-primary);letter-spacing:-0.02em; }
-.footer-logo-highlight { color:var(--accent); }
+.footer-logo { display:flex;align-items:center;gap:0.5rem; }
+.footer-logo-text { font-family:var(--font-display);font-size:1.35rem;font-weight:800;text-transform:uppercase;letter-spacing:-0.025em;background:linear-gradient(90deg,#00eeff 0%,#00eeff 35%,#ffffff 50%,#00eeff 65%,#00eeff 100%);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:logo-shine-sweep 3s ease-in-out infinite; }
 .footer-tagline { font-family:var(--font-body);font-size:0.9375rem;line-height:1.6;color:var(--text-muted); }
 .footer-nickname { color:var(--accent);font-weight:500;font-size:0.875rem; }
 .footer-location { display:flex;align-items:center;gap:0.5rem;font-family:var(--font-mono);font-size:0.75rem;color:var(--text-dim); }
