@@ -1,788 +1,995 @@
 <!doctype html>
 <html lang="vi">
+
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/png" href="Images/Nghuy.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nguyễn Ngọc Huy | Software Engineer & Founder</title>
-  <meta name="description" content="Hồ sơ cá nhân của Nguyễn Ngọc Huy - Kỹ sư phần mềm và nhà phát triển nền tảng độc lập." />
+  <meta name="description"
+    content="Hồ sơ cá nhân của Nguyễn Ngọc Huy - Kỹ sư phần mềm và nhà phát triển nền tảng độc lập." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
   <!-- Lenis Smooth Scroll CDN -->
   <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 
-<!-- ── Custom Cursor ─────────────────────────────────────── -->
-<div class="cursor-dot"></div>
-<div class="cursor-ring"></div>
+  <!-- ── Custom Cursor ─────────────────────────────────────── -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
 
-<!-- ── Scroll Progress Bar ───────────────────────────────── -->
-<div id="scroll-progress-bar" class="scroll-progress-bar"></div>
+  <!-- ── Scroll Progress Bar ───────────────────────────────── -->
+  <div id="scroll-progress-bar" class="scroll-progress-bar"></div>
 
-<!-- ── Intro Screen ──────────────────────────────────────── -->
-<div id="intro-screen">
-  <div class="intro-bg-layer">
-    <div class="intro-orb orb-1"></div>
-    <div class="intro-orb orb-2"></div>
-    <div class="grid-bg opacity-30" style="position:absolute;inset:0;opacity:0.3"></div>
-  </div>
-
-  <div class="intro-content-wrapper">
-    <!-- Icons -->
-    <div class="intro-icon-list">
-      <!-- Code2 icon -->
-      <div class="intro-icon-item">
-        <svg class="intro-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-      </div>
-      <!-- Layers icon -->
-      <div class="intro-icon-item">
-        <svg class="intro-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
-      </div>
-      <!-- Zap icon -->
-      <div class="intro-icon-item">
-        <svg class="intro-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-      </div>
+  <!-- ── Intro Screen ──────────────────────────────────────── -->
+  <div id="intro-screen">
+    <div class="intro-bg-layer">
+      <div class="intro-orb orb-1"></div>
+      <div class="intro-orb orb-2"></div>
+      <div class="grid-bg opacity-30" style="position:absolute;inset:0;opacity:0.3"></div>
     </div>
 
-    <!-- Heading -->
-    <div class="intro-text-center">
-      <h1 class="intro-heading">
-        <div class="intro-heading-row">
-          <span class="intro-word">WELCOME</span>
-          <span class="intro-word">TO</span>
-          <span class="intro-word">WEBSITE</span>
+    <div class="intro-content-wrapper">
+      <!-- Icons -->
+      <div class="intro-icon-list">
+        <!-- Code2 icon -->
+        <div class="intro-icon-item">
+          <svg class="intro-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <polyline points="16 18 22 12 16 6" />
+            <polyline points="8 6 2 12 8 18" />
+          </svg>
         </div>
-        <div class="intro-heading-row highlight-row">
-          <span class="intro-word highlighted">NGUYEN</span>
-          <span class="intro-word highlighted">NGOC</span>
-          <span class="intro-word highlighted">HUY</span>
+        <!-- Layers icon -->
+        <div class="intro-icon-item">
+          <svg class="intro-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <polygon points="12 2 2 7 12 12 22 7 12 2" />
+            <polyline points="2 17 12 22 22 17" />
+            <polyline points="2 12 12 17 22 12" />
+          </svg>
         </div>
-      </h1>
-
-      <!-- Typewriter URL -->
-      <div class="intro-subtext-container">
-        <div class="intro-subtext-inner">
-          <span class="intro-subtext-prefix">⊕</span>
-          <span class="intro-typewriter-text"></span>
-          <span class="intro-cursor">|</span>
+        <!-- Zap icon -->
+        <div class="intro-icon-item">
+          <svg class="intro-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+          </svg>
         </div>
       </div>
-    </div>
 
-    <!-- Loader -->
-    <div class="intro-loader-container">
-      <div class="intro-loader-track">
-        <div class="intro-loader-bar"></div>
-      </div>
-    </div>
-  </div>
-</div>
+      <!-- Heading -->
+      <div class="intro-text-center">
+        <h1 class="intro-heading">
+          <div class="intro-heading-row">
+            <span class="intro-word">WELCOME</span>
+            <span class="intro-word">TO</span>
+            <span class="intro-word">WEBSITE</span>
+          </div>
+          <div class="intro-heading-row highlight-row">
+            <span class="intro-word highlighted">NGUYEN</span>
+            <span class="intro-word highlighted">NGOC</span>
+            <span class="intro-word highlighted">HUY TO TI TE</span>
+          </div>
+        </h1>
 
-<!-- ══════════════════════════════════════════════════════════ -->
-<!-- MAIN SITE (hidden until intro completes)                   -->
-<!-- ══════════════════════════════════════════════════════════ -->
-<div id="main-site" style="display:none">
-
-  <!-- ── Scene Background ── -->
-  <div class="scene-background">
-    <div class="bg-orb bg-orb-1"></div>
-    <div class="bg-orb bg-orb-2"></div>
-    <div class="bg-orb bg-orb-3"></div>
-    <div class="bg-grid"></div>
-  </div>
-
-  <!-- ══════════════════════════════════════════════════════ -->
-  <!-- NAVBAR                                                  -->
-  <!-- ══════════════════════════════════════════════════════ -->
-  <header class="navbar-header">
-    <div class="navbar-container">
-      <!-- Logo -->
-      <a href="#home" data-scroll-to="#home" class="navbar-logo">
-        <div class="navbar-logo-icon">
-          <img src="Images/Nghuy.png" alt="Logo" class="navbar-logo-img" />
-        </div>
-        <span class="navbar-logo-text">NGHUY</span>
-      </a>
-
-      <!-- Desktop Nav -->
-      <nav class="navbar-desktop-nav">
-        <a href="#home" data-scroll-to="#home" class="navbar-link">
-          <span class="navbar-link-text">Trang Chủ</span>
-        </a>
-        <a href="#about" data-scroll-to="#about" class="navbar-link">
-          <span class="navbar-link-text">Về Tôi</span>
-        </a>
-        <a href="#academic" data-scroll-to="#academic" class="navbar-link">
-          <span class="navbar-link-text">Tư Duy</span>
-        </a>
-        <a href="#portfolio" data-scroll-to="#portfolio" class="navbar-link">
-          <span class="navbar-link-text">Dự Án</span>
-        </a>
-        <a href="#contact" data-scroll-to="#contact" class="navbar-link">
-          <span class="navbar-link-text">Kết Nối</span>
-        </a>
-      </nav>
-
-      <!-- Right Actions -->
-      <div class="navbar-actions">
-        <!-- AI Button -->
-        <div class="navbar-ai-wrapper">
-          <span class="ai-btn-text">huybot</span>
-          <button class="navbar-ai-icon-btn" aria-label="Toggle huybot AI">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="ai-sparkle-icon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-          </button>
-        </div>
-
-        <!-- CTA -->
-        <a href="mailto:contact@nghuy.vn" class="navbar-cta">
-          <span class="navbar-cta-dot"></span>
-          <span class="navbar-cta-text">Liên hệ</span>
-        </a>
-
-        <!-- Mobile Hamburger -->
-        <button id="mobile-toggle" class="navbar-mobile-toggle" aria-label="Toggle menu" aria-expanded="false">
-          <span class="menu-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-          </span>
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <!-- Mobile Menu Overlay -->
-  <div id="mobile-menu" class="mobile-menu-overlay">
-    <div class="mobile-menu-glass"></div>
-    <div class="mobile-menu-bg-glow-center"></div>
-    <div class="mobile-menu-content-centered">
-      <div class="mobile-menu-header-centered">
-        <span class="mobile-menu-label-architect">NAVIGATION</span>
-        <div class="label-dots"></div>
-      </div>
-      <nav class="mobile-menu-nav-centered">
-        <a href="#home" data-scroll-to="#home" class="mobile-menu-link-pill">
-          <span class="link-text-minimal">Trang Chủ</span>
-        </a>
-        <a href="#about" data-scroll-to="#about" class="mobile-menu-link-pill">
-          <span class="link-text-minimal">Về Tôi</span>
-        </a>
-        <a href="#academic" data-scroll-to="#academic" class="mobile-menu-link-pill">
-          <span class="link-text-minimal">Tư Duy</span>
-        </a>
-        <a href="#portfolio" data-scroll-to="#portfolio" class="mobile-menu-link-pill">
-          <span class="link-text-minimal">Dự Án</span>
-        </a>
-        <a href="#contact" data-scroll-to="#contact" class="mobile-menu-link-pill">
-          <span class="link-text-minimal">Kết Nối</span>
-        </a>
-        <button id="mobile-back-btn" class="mobile-menu-back-btn">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
-          <span>Back to Site</span>
-        </button>
-      </nav>
-
-      <div class="mobile-menu-footer-hub">
-        <div class="social-hub-centered">
-          <div class="social-links-row-centered">
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-link-item-hub" data-social="github">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
-            </a>
-            <a href="https://zalo.me/" target="_blank" rel="noopener noreferrer" class="social-link-item-hub" data-social="zalo">
-              <svg width="18" height="18" viewBox="0 0 615 614" fill="currentColor"><path d="M464.721,301.399c-13.984-0.014-23.707,11.478-23.944,28.312c-0.251,17.771,9.168,29.208,24.037,29.202 c14.287-0.007,23.799-11.095,24.01-27.995C489.028,313.536,479.127,301.399,464.721,301.399z"/><path d="M291.83,301.392c-14.473-0.316-24.578,11.603-24.604,29.024c-0.02,16.959,9.294,28.259,23.496,28.502 c15.072,0.251,24.592-10.87,24.539-28.707C315.214,313.318,305.769,301.696,291.83,301.392z"/><path d="M310.518,3.158C143.102,3.158,7.375,138.884,7.375,306.3s135.727,303.142,303.143,303.142 c167.415,0,303.143-135.727,303.143-303.142S477.933,3.158,310.518,3.158z M217.858,391.083 c-33.364,0.818-66.828,1.353-100.133-0.343c-21.326-1.095-27.652-18.647-14.248-36.583c21.55-28.826,43.886-57.065,65.792-85.621 c2.546-3.305,6.214-5.996,7.15-12.705c-16.609,0-32.784,0.04-48.958-0.013c-19.195-0.066-28.278-5.805-28.14-17.652 c0.132-11.768,9.175-17.329,28.397-17.348c25.159-0.026,50.324-0.06,75.476,0.026c9.637,0.033,19.604,0.105,25.304,9.789 c6.22,10.561,0.284,19.512-5.646,27.454c-21.26,28.497-43.015,56.624-64.559,84.902c-2.599,3.41-5.119,6.88-9.453,12.725 c23.424,0,44.123-0.053,64.816,0.026c8.674,0.026,16.662,1.873,19.941,11.267C237.892,379.329,231.368,390.752,217.858,391.083z M350.854,330.211c0,13.417-0.093,26.841,0.039,40.265c0.073,7.599-2.599,13.647-9.512,17.084 c-7.296,3.642-14.71,3.028-20.304-2.968c-3.997-4.281-6.214-3.213-10.488-0.422c-17.955,11.728-39.908,9.96-56.597-3.866 c-29.928-24.789-30.026-74.803-0.211-99.776c16.194-13.562,39.592-15.462,56.709-4.143c3.951,2.619,6.201,4.815,10.396-0.053 c5.39-6.267,13.055-6.761,20.271-3.357c7.454,3.509,9.935,10.165,9.776,18.265C350.67,304.222,350.86,317.217,350.854,330.211z M395.617,369.579c-0.118,12.837-6.398,19.783-17.196,19.908c-10.779,0.132-17.593-6.966-17.646-19.512 c-0.179-43.352-0.185-86.696,0.007-130.041c0.059-12.256,7.302-19.921,17.896-19.222c11.425,0.752,16.992,7.448,16.992,18.833 c0,22.104,0,44.216,0,66.327C395.677,327.105,395.828,348.345,395.617,369.579z M463.981,391.868 c-34.399-0.336-59.037-26.444-58.786-62.289c0.251-35.66,25.304-60.713,60.383-60.396c34.631,0.304,59.374,26.306,58.998,61.986 C524.207,366.492,498.534,392.205,463.981,391.868z"/></svg>
-            </a>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="social-link-item-hub" data-social="facebook">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-            </a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-link-item-hub" data-social="instagram">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
-            </a>
+        <!-- Typewriter URL -->
+        <div class="intro-subtext-container">
+          <div class="intro-subtext-inner">
+            <span class="intro-subtext-prefix">⊕</span>
+            <span class="intro-typewriter-text"></span>
+            <span class="intro-cursor">|</span>
           </div>
         </div>
-        <div class="mobile-actions-hub-vertical">
-          <button class="hub-action-btn-ai-full glow-box-primary">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="sparkle-primary"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-            <span>Chat with HuyBot</span>
-          </button>
-          <a href="mailto:contact@nghuy.vn" class="hub-action-btn-hire-full">
-            <span>Liên hệ ngay</span>
+      </div>
+
+      <!-- Loader -->
+      <div class="intro-loader-container">
+        <div class="intro-loader-track">
+          <div class="intro-loader-bar"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <!-- MAIN SITE (hidden until intro completes)                   -->
+  <!-- ══════════════════════════════════════════════════════════ -->
+  <div id="main-site" style="display:none">
+
+    <!-- ── Scene Background ── -->
+    <div class="scene-background">
+      <div class="bg-orb bg-orb-1"></div>
+      <div class="bg-orb bg-orb-2"></div>
+      <div class="bg-orb bg-orb-3"></div>
+      <div class="bg-grid"></div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <!-- NAVBAR                                                  -->
+    <!-- ══════════════════════════════════════════════════════ -->
+    <header class="navbar-header">
+      <div class="navbar-container">
+        <!-- Logo -->
+        <a href="#home" data-scroll-to="#home" class="navbar-logo">
+          <div class="navbar-logo-icon">
+            <img src="Images/Nghuy.png" alt="Logo" class="navbar-logo-img" />
+          </div>
+          <span class="navbar-logo-text">NGHUY</span>
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav class="navbar-desktop-nav">
+          <a href="#home" data-scroll-to="#home" class="navbar-link">
+            <span class="navbar-link-text">Trang Chủ</span>
           </a>
-        </div>
-      </div>
-    </div>
-  </div>
+          <a href="#about" data-scroll-to="#about" class="navbar-link">
+            <span class="navbar-link-text">Về Tôi</span>
+          </a>
+          <a href="#academic" data-scroll-to="#academic" class="navbar-link">
+            <span class="navbar-link-text">Tư Duy</span>
+          </a>
+          <a href="#portfolio" data-scroll-to="#portfolio" class="navbar-link">
+            <span class="navbar-link-text">Dự Án</span>
+          </a>
+          <a href="#contact" data-scroll-to="#contact" class="navbar-link">
+            <span class="navbar-link-text">Kết Nối</span>
+          </a>
+        </nav>
 
-  <!-- ══════════════════════════════════════════════════════ -->
-  <!-- MAIN CONTENT                                            -->
-  <!-- ══════════════════════════════════════════════════════ -->
-  <main>
-
-    <!-- ── HERO ──────────────────────────────────────────── -->
-    <section id="home" class="hero-section">
-      <div class="hero-radial-highlight"></div>
-      <div class="hero-container">
-        <div class="hero-grid">
-
-          <!-- Left: Text -->
-          <div class="hero-content">
-            <!-- Badge -->
-            <div class="hero-badge" data-animate="fade-up">
-              <div class="hero-badge-shine animate-shimmer"></div>
-              <span class="hero-badge-dot"></span>
-              <span class="hero-badge-text">Tuyệt vời &amp; Đam mê</span>
-            </div>
-
-            <!-- Headline -->
-            <div data-animate="fade-up">
-              <h1 style="font-family:var(--font-display);font-weight:800;line-height:1.05;letter-spacing:-0.025em">
-                <span class="hero-h1-first">Kỹ Sư</span>
-                <span class="hero-h1-second">Phần Mềm</span>
-              </h1>
-            </div>
-
-            <!-- Typewriter -->
-            <div class="hero-typewriter-wrapper" data-animate="fade-up">
-              <span class="typewriter-container">
-                <span id="hero-typewriter-text" class="typewriter-text"></span>
-                <span class="typewriter-cursor"></span>
-              </span>
-            </div>
-
-            <!-- Bio -->
-            <p class="hero-bio" data-animate="fade-up">Xin chào, tôi là Nguyễn Ngọc Huy. Đam mê lớn nhất của tôi là đơn giản hóa sự phức tạp. Thay vì cố gắng tạo ra những cỗ máy khổng lồ, tôi tập trung thiết kế các giải pháp phần mềm tinh gọn, ổn định và thực sự giải quyết được bài toán thực tế.</p>
-
-            <!-- CTA Buttons -->
-            <div class="hero-actions" data-animate="fade-up">
-              <a href="#portfolio" data-scroll-to="#portfolio" class="hero-btn-primary">
-                <div class="hero-btn-primary-shine"></div>
-                <span class="hero-btn-primary-text">
-                  Dự Án Cá Nhân
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                </span>
-              </a>
-              <a href="mailto:contact@nghuy.vn" class="hero-btn-secondary">
-                Kết Nối
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-              </a>
-            </div>
-
-            <!-- Social Links -->
-            <div class="hero-socials" data-animate="fade-up">
-              <div class="hero-socials-list">
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="GitHub" data-social="github">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
-                </a>
-                <a href="https://zalo.me/" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="Zalo" data-social="zalo">
-                  <svg width="20" height="20" viewBox="0 0 615 614" fill="currentColor"><path d="M464.721,301.399c-13.984-0.014-23.707,11.478-23.944,28.312c-0.251,17.771,9.168,29.208,24.037,29.202 c14.287-0.007,23.799-11.095,24.01-27.995C489.028,313.536,479.127,301.399,464.721,301.399z"/><path d="M291.83,301.392c-14.473-0.316-24.578,11.603-24.604,29.024c-0.02,16.959,9.294,28.259,23.496,28.502 c15.072,0.251,24.592-10.87,24.539-28.707C315.214,313.318,305.769,301.696,291.83,301.392z"/><path d="M310.518,3.158C143.102,3.158,7.375,138.884,7.375,306.3s135.727,303.142,303.143,303.142 c167.415,0,303.143-135.727,303.143-303.142S477.933,3.158,310.518,3.158z M217.858,391.083 c-33.364,0.818-66.828,1.353-100.133-0.343c-21.326-1.095-27.652-18.647-14.248-36.583c21.55-28.826,43.886-57.065,65.792-85.621 c2.546-3.305,6.214-5.996,7.15-12.705c-16.609,0-32.784,0.04-48.958-0.013c-19.195-0.066-28.278-5.805-28.14-17.652 c0.132-11.768,9.175-17.329,28.397-17.348c25.159-0.026,50.324-0.06,75.476,0.026c9.637,0.033,19.604,0.105,25.304,9.789 c6.22,10.561,0.284,19.512-5.646,27.454c-21.26,28.497-43.015,56.624-64.559,84.902c-2.599,3.41-5.119,6.88-9.453,12.725 c23.424,0,44.123-0.053,64.816,0.026c8.674,0.026,16.662,1.873,19.941,11.267C237.892,379.329,231.368,390.752,217.858,391.083z M350.854,330.211c0,13.417-0.093,26.841,0.039,40.265c0.073,7.599-2.599,13.647-9.512,17.084 c-7.296,3.642-14.71,3.028-20.304-2.968c-3.997-4.281-6.214-3.213-10.488-0.422c-17.955,11.728-39.908,9.96-56.597-3.866 c-29.928-24.789-30.026-74.803-0.211-99.776c16.194-13.562,39.592-15.462,56.709-4.143c3.951,2.619,6.201,4.815,10.396-0.053 c5.39-6.267,13.055-6.761,20.271-3.357c7.454,3.509,9.935,10.165,9.776,18.265C350.67,304.222,350.86,317.217,350.854,330.211z M395.617,369.579c-0.118,12.837-6.398,19.783-17.196,19.908c-10.779,0.132-17.593-6.966-17.646-19.512 c-0.179-43.352-0.185-86.696,0.007-130.041c0.059-12.256,7.302-19.921,17.896-19.222c11.425,0.752,16.992,7.448,16.992,18.833 c0,22.104,0,44.216,0,66.327C395.677,327.105,395.828,348.345,395.617,369.579z M463.981,391.868 c-34.399-0.336-59.037-26.444-58.786-62.289c0.251-35.66,25.304-60.713,60.383-60.396c34.631,0.304,59.374,26.306,58.998,61.986 C524.207,366.492,498.534,392.205,463.981,391.868z"/></svg>
-                </a>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="Facebook" data-social="facebook">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"/></svg>
-                </a>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="Instagram" data-social="instagram">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                </a>
-                <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="Telegram" data-social="telegram">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zM17.65 8.232l-1.933 9.112c-.145.64-.523.798-1.06.498L11.7 15.58l-1.42 1.368c-.157.157-.289.289-.59.289l.21-2.981L15.33 9.531c.236-.21-.051-.327-.367-.116l-6.71 4.225-2.89-.904c-.628-.196-.64-.628.13-.928l11.31-4.359c.523-.196.981.116.847.783z"/></svg>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Right: Code Panel -->
-          <div class="hero-code-panel-wrapper" data-animate="zoom">
-            <div class="hero-code-panel-glow"></div>
-            <div class="hero-code-panel-body">
-              <!-- Title bar -->
-              <div class="hero-code-panel-header">
-                <div class="hero-code-panel-dots">
-                  <span></span><span></span><span></span>
-                </div>
-                <span class="hero-code-panel-title">portfolio.js</span>
-              </div>
-              <!-- Code content -->
-              <div class="hero-code-panel-content">
-                <div><span style="color:#60a5fa">const</span> <span style="color:#67e8f9">Developer</span> <span style="color:rgba(255,255,255,0.5)">= {</span></div>
-                <div class="hero-code-panel-line-indent"><span style="color:#93c5fd">name</span><span style="color:rgba(255,255,255,0.5)">:</span> <span style="color:#6ee7b7;border-bottom:1px solid rgba(110,231,183,0.3)">"Nguyễn Ngọc Huy"</span><span style="color:rgba(255,255,255,0.5)">,</span></div>
-                <div class="hero-code-panel-line-indent"><span style="color:#93c5fd">role</span><span style="color:rgba(255,255,255,0.5)">:</span> <span style="color:#6ee7b7">"Software Engineer"</span><span style="color:rgba(255,255,255,0.5)">,</span></div>
-                <div class="hero-code-panel-line-indent"><span style="color:#93c5fd">passion</span><span style="color:rgba(255,255,255,0.5)">:</span> <span style="color:#6ee7b7">"Đơn Giản Hóa Sự Phức Tạp"</span><span style="color:rgba(255,255,255,0.5)">,</span></div>
-                <div class="hero-code-panel-line-indent" style="display:flex;flex-wrap:wrap;gap:0.5rem;padding-top:0.5rem;padding-bottom:0.5rem">
-                  <span style="color:#93c5fd;margin-top:0.25rem">skills</span><span style="color:rgba(255,255,255,0.5);margin-top:0.25rem">: [</span>
-                  <span class="hero-code-panel-skill-badge">"React",</span>
-                  <span class="hero-code-panel-skill-badge">"Node.js",</span>
-                  <span class="hero-code-panel-skill-badge">"PHP",</span>
-                  <span class="hero-code-panel-skill-badge">"Python"</span>
-                  <span style="color:rgba(255,255,255,0.5);margin-top:0.25rem">],</span>
-                </div>
-                <div class="hero-code-panel-line-indent" style="display:flex;align-items:center;gap:0.5rem;padding-top:0.25rem">
-                  <span style="color:#93c5fd">status</span><span style="color:rgba(255,255,255,0.5)">:</span>
-                  <span class="status-blink">"Sẵn sàng nhận dự án"</span>
-                </div>
-                <div><span style="color:rgba(255,255,255,0.5)">}</span></div>
-              </div>
-              <!-- Scan line -->
-              <div class="hero-code-panel-scanline">
-                <div class="hero-code-panel-scanline-bar animate-scan"></div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ── ABOUT ──────────────────────────────────────────── -->
-    <section id="about" class="about-section">
-      <div class="about-container">
-        <!-- Section Title -->
-        <div class="section-title-wrapper center" data-animate="fade-up">
-          <div class="premium-title-glow"></div>
-          <div class="section-header-container">
-            <div class="section-header-line left"></div>
-            <h2 class="section-heading">Câu Chuyện</h2>
-            <div class="section-header-line right"></div>
-          </div>
-          <p class="section-subtitle">Biến ý tưởng thành những trải nghiệm kỹ thuật số</p>
-        </div>
-
-        <!-- Bio + Avatar -->
-        <div class="about-top-grid">
-          <div class="about-bio-content">
-            <h4 class="about-hello" data-animate="slide-left">Xin chào, tôi là</h4>
-            <h2 class="about-name" data-animate="slide-right" id="about-name">Nguyễn Ngọc Huy</h2>
-            <p class="about-description" data-animate="slide-left" id="about-bio2">Tôi không tin vào sự phô trương của công nghệ. Một đoạn code xuất sắc không phải là đoạn code dùng công nghệ phức tạp nhất, mà là đoạn code dễ đọc nhất để đồng nghiệp sau này hiểu được.</p>
-            <div class="about-buttons" data-animate="zoom">
-              <a href="#" class="button button-primary">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-                Tải CV
-              </a>
-              <a href="#portfolio" data-scroll-to="#portfolio" class="button button-outline">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                Khám Phá Dự Án
-              </a>
-            </div>
-          </div>
-          <div class="about-avatar-container" data-animate="zoom">
-            <div class="about-avatar-circle">
-              <img src="Images/image.png" alt="Nguyễn Ngọc Huy" class="about-avatar-image" />
-            </div>
-          </div>
-        </div>
-
-        <!-- Stats -->
-        <div id="stats-grid" class="about-stats-grid">
-          <!-- Dynamically rendered by JS -->
-        </div>
-      </div>
-    </section>
-
-    <!-- ── ACADEMIC ────────────────────────────────────────── -->
-    <section id="academic" class="academic-section">
-      <div class="academic-container">
-        <!-- Title -->
-        <div class="section-title-wrapper center" data-animate="fade-up">
-          <div class="premium-title-glow"></div>
-          <div class="section-header-container">
-            <div class="section-header-line left"></div>
-            <h2 class="section-heading">Hành <span class="glow-text-primary" style="color:var(--accent)">Trình</span></h2>
-            <div class="section-header-line right"></div>
-          </div>
-          <p class="section-subtitle">Quá trình giáo dục và phát triển công nghệ</p>
-        </div>
-
-        <!-- Identity Block -->
-        <div class="academic-identity-block shadow-premium" data-animate="zoom">
-          <h2 class="academic-degree">Software Engineer</h2>
-          <h3 class="academic-major">Kỹ Sư Phần Mềm</h3>
-          <p class="academic-institution">Phát Triển Độc Lập</p>
-          <p class="academic-period">Hành Trình Kỷ Luật</p>
-        </div>
-
-        <!-- Timeline -->
-        <div class="timeline-wrapper">
-          <div class="timeline-line"></div>
-          <div id="timeline-items" class="timeline-items">
-            <!-- Rendered by JS -->
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ── PORTFOLIO ──────────────────────────────────────── -->
-    <section id="portfolio" class="portfolio-section">
-      <div class="portfolio-container">
-        <!-- Title -->
-        <div class="section-title-wrapper center" data-animate="fade-up">
-          <div class="premium-title-glow"></div>
-          <div class="section-header-container">
-            <div class="section-header-line left"></div>
-            <h2 class="section-heading">Dự Án <span class="glow-text-primary" style="color:var(--accent)">Nổi Bật</span></h2>
-            <div class="section-header-line right"></div>
-          </div>
-          <p class="section-subtitle">Khám phá hành trình của tôi qua các website, chứng chỉ tự do và chuyên môn công nghệ. Từng dòng code đều khẳng định được sự đam mê của bản thân mình.</p>
-        </div>
-
-        <!-- Tab Navigation -->
-        <div class="portfolio-tabs-nav">
-          <div class="portfolio-tabs-container">
-            <button class="portfolio-tab-btn-elite" data-tab="projects">
-              <div class="portfolio-tab-highlight"></div>
-              <span class="portfolio-tab-label-elite">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                Dự Án
-              </span>
-            </button>
-            <button class="portfolio-tab-btn-elite" data-tab="certificates">
-              <div class="portfolio-tab-highlight"></div>
-              <span class="portfolio-tab-label-elite">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
-                Chứng Chỉ
-              </span>
-            </button>
-            <button class="portfolio-tab-btn-elite" data-tab="techstack">
-              <div class="portfolio-tab-highlight"></div>
-              <span class="portfolio-tab-label-elite">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
-                Công Nghệ
-              </span>
+        <!-- Right Actions -->
+        <div class="navbar-actions">
+          <!-- AI Button -->
+          <div class="navbar-ai-wrapper">
+            <span class="ai-btn-text">huybot</span>
+            <button class="navbar-ai-icon-btn" aria-label="Toggle huybot AI">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                class="ai-sparkle-icon">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+              </svg>
             </button>
           </div>
-        </div>
 
-        <!-- Tab Content Panels -->
-        <div class="portfolio-content-area-elite">
-          <div id="tab-projects">
-            <div id="projects-grid" class="portfolio-projects-grid"></div>
-          </div>
-          <div id="tab-certificates" style="display:none">
-            <div id="certs-grid" class="portfolio-certs-grid"></div>
-          </div>
-          <div id="tab-techstack" style="display:none">
-            <div id="tech-stack-container" class="tech-stack-organized"></div>
-          </div>
-        </div>
-      </div>
+          <!-- CTA -->
+          <a href="mailto:contact@nghuy.vn" class="navbar-cta">
+            <span class="navbar-cta-dot"></span>
+            <span class="navbar-cta-text">Liên hệ</span>
+          </a>
 
-      <!-- Project Modal -->
-      <div id="project-modal" class="project-modal-overlay">
-        <div class="project-modal-container">
-          <button id="modal-close-btn" class="project-modal-close" aria-label="Close">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          <!-- Mobile Hamburger -->
+          <button id="mobile-toggle" class="navbar-mobile-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <span class="menu-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                <line x1="3" y1="12" x2="21" y2="12" />
+                <line x1="3" y1="6" x2="21" y2="6" />
+                <line x1="3" y1="18" x2="21" y2="18" />
+              </svg>
+            </span>
           </button>
-          <div class="elitist-layout">
-            <!-- Intro bar -->
-            <div class="project-modal-intro-bar">
-              <div class="intro-bar-left">
-                <span class="intro-meta-label">Project No.</span>
-                <span id="modal-project-num" class="intro-meta-value">001</span>
-                <div class="intro-meta-divider"></div>
-                <span class="intro-meta-label">Status</span>
-                <span id="modal-status-dot" class="project-status-dot dot-deployed"></span>
-                <span id="modal-project-status-text" class="intro-meta-value">Hoạt động</span>
-              </div>
-            </div>
-            <!-- Title -->
-            <h2 id="modal-title" class="project-modal-elite-title">Project Title</h2>
-            <!-- Gallery -->
-            <div class="project-modal-hero-gallery">
-              <div class="gallery-main-frame">
-                <img id="modal-img" src="" alt="" class="gallery-img" />
-              </div>
-              <div id="modal-tags" class="gallery-tags-floating"></div>
-            </div>
-            <!-- Narrative -->
-            <div class="project-modal-narrative-section">
-              <div class="narrative-grid">
-                <div class="narrative-main-col">
-                  <h4 class="narrative-subtitle">Project Synopsis</h4>
-                  <p id="modal-desc" class="narrative-desc-lead"></p>
-                  <p id="modal-ext-desc" class="narrative-desc-full"></p>
-                </div>
-                <div class="narrative-specs-col">
-                  <div class="specs-elite-grid">
-                    <div class="elite-spec">
-                      <span class="spec-elite-label">Engineering Focus</span>
-                      <p id="modal-spec-focus" class="spec-elite-value"></p>
-                    </div>
-                    <div class="elite-spec">
-                      <span class="spec-elite-label">Execution Status</span>
-                      <p id="modal-spec-status" class="spec-elite-value"></p>
-                    </div>
-                    <div class="elite-spec">
-                      <span class="spec-elite-label">Project Ownership</span>
-                      <p class="spec-elite-value">Nguyễn Ngọc Huy</p>
-                    </div>
-                  </div>
-                  <div class="narrative-actions-elite">
-                    <a id="modal-live-btn" href="#" target="_blank" rel="noopener noreferrer" class="elite-action-btn primary">
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                      Mở Trang Web
-                    </a>
-                    <button class="elite-action-btn secondary" onclick="closeProjectModal()">Đóng Giao Diện</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-    </section>
+    </header>
 
-    <!-- ── CONTACT ────────────────────────────────────────── -->
-    <section id="contact" class="contact-section">
-      <div class="contact-container">
-        <!-- Title -->
-        <div class="section-title-wrapper center" data-animate="fade-up">
-          <div class="premium-title-glow"></div>
-          <div class="section-header-container">
-            <div class="section-header-line left"></div>
-            <h2 class="section-heading">Kết Nối <span class="glow-text-primary" style="color:var(--accent)">Với Tôi</span></h2>
-            <div class="section-header-line right"></div>
-          </div>
-          <p class="section-subtitle">Bạn có ý tưởng hoặc dự án thú vị? Hộp thư của mình luôn mở.</p>
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="mobile-menu-overlay">
+      <div class="mobile-menu-glass"></div>
+      <div class="mobile-menu-bg-glow-center"></div>
+      <div class="mobile-menu-content-centered">
+        <div class="mobile-menu-header-centered">
+          <span class="mobile-menu-label-architect">NAVIGATION</span>
+          <div class="label-dots"></div>
         </div>
+        <nav class="mobile-menu-nav-centered">
+          <a href="#home" data-scroll-to="#home" class="mobile-menu-link-pill">
+            <span class="link-text-minimal">Trang Chủ</span>
+          </a>
+          <a href="#about" data-scroll-to="#about" class="mobile-menu-link-pill">
+            <span class="link-text-minimal">Về Tôi</span>
+          </a>
+          <a href="#academic" data-scroll-to="#academic" class="mobile-menu-link-pill">
+            <span class="link-text-minimal">Tư Duy</span>
+          </a>
+          <a href="#portfolio" data-scroll-to="#portfolio" class="mobile-menu-link-pill">
+            <span class="link-text-minimal">Dự Án</span>
+          </a>
+          <a href="#contact" data-scroll-to="#contact" class="mobile-menu-link-pill">
+            <span class="link-text-minimal">Kết Nối</span>
+          </a>
+          <button id="mobile-back-btn" class="mobile-menu-back-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="19" y1="12" x2="5" y2="12" />
+              <polyline points="12 19 5 12 12 5" />
+            </svg>
+            <span>Back to Site</span>
+          </button>
+        </nav>
 
-        <div class="contact-grid">
-          <!-- Left Col -->
-          <div class="contact-left-col" data-animate="slide-left">
-            <div>
-              <h3 class="contact-header-title">Cùng nhau hợp tác</h3>
-              <p class="contact-header-desc">Mình luôn tìm kiếm những dự án mới thú vị. Dù bạn cần một website, web app hay đơn giản là muốn trò chuyện — hãy thoải mái liên hệ!</p>
-            </div>
-
-            <div class="contact-info-list">
-              <div class="contact-info-item">
-                <div class="contact-info-icon email">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                </div>
-                <div>
-                  <p class="contact-info-label">Email</p>
-                  <a href="mailto:contact@nghuy.vn" class="contact-info-value contact-email-link">contact@nghuy.vn</a>
-                </div>
-              </div>
-              <div class="contact-info-item">
-                <div class="contact-info-icon location">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                </div>
-                <div>
-                  <p class="contact-info-label">Khu Vực</p>
-                  <p class="contact-info-value" id="contact-location">Vietnam</p>
-                </div>
-              </div>
-            </div>
-
-            <span class="contact-social-label">Tìm tôi tại</span>
-            <div class="contact-social-list">
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="contact-social-link" aria-label="GitHub" data-social="github">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
-              </a>
-              <a href="https://zalo.me/" target="_blank" rel="noopener noreferrer" class="contact-social-link" aria-label="Zalo" data-social="zalo">
-                <svg width="18" height="18" viewBox="0 0 615 614" fill="currentColor">
-                  <path d="M464.721,301.399c-13.984-0.014-23.707,11.478-23.944,28.312c-0.251,17.771,9.168,29.208,24.037,29.202 c14.287-0.007,23.799-11.095,24.01-27.995C489.028,313.536,479.127,301.399,464.721,301.399z"/>
-                  <path d="M291.83,301.392c-14.473-0.316-24.578,11.603-24.604,29.024c-0.02,16.959,9.294,28.259,23.496,28.502 c15.072,0.251,24.592-10.87,24.539-28.707C315.214,313.318,305.769,301.696,291.83,301.392z"/>
-                  <path d="M310.518,3.158C143.102,3.158,7.375,138.884,7.375,306.3s135.727,303.142,303.143,303.142 c167.415,0,303.143-135.727,303.143-303.142S477.933,3.158,310.518,3.158z M217.858,391.083 c-33.364,0.818-66.828,1.353-100.133-0.343c-21.326-1.095-27.652-18.647-14.248-36.583c21.55-28.826,43.886-57.065,65.792-85.621 c2.546-3.305,6.214-5.996,7.15-12.705c-16.609,0-32.784,0.04-48.958-0.013c-19.195-0.066-28.278-5.805-28.14-17.652 c0.132-11.768,9.175-17.329,28.397-17.348c25.159-0.026,50.324-0.06,75.476,0.026c9.637,0.033,19.604,0.105,25.304,9.789 c6.22,10.561,0.284,19.512-5.646,27.454c-21.26,28.497-43.015,56.624-64.559,84.902c-2.599,3.41-5.119,6.88-9.453,12.725 c23.424,0,44.123-0.053,64.816,0.026c8.674,0.026,16.662,1.873,19.941,11.267C237.892,379.329,231.368,390.752,217.858,391.083z M350.854,330.211c0,13.417-0.093,26.841,0.039,40.265c0.073,7.599-2.599,13.647-9.512,17.084 c-7.296,3.642-14.71,3.028-20.304-2.968c-3.997-4.281-6.214-3.213-10.488-0.422c-17.955,11.728-39.908,9.96-56.597-3.866 c-29.928-24.789-30.026-74.803-0.211-99.776c16.194-13.562,39.592-15.462,56.709-4.143c3.951,2.619,6.201,4.815,10.396-0.053 c5.39-6.267,13.055-6.761,20.271-3.357c7.454,3.509,9.935,10.165,9.776,18.265C350.67,304.222,350.86,317.217,350.854,330.211z M395.617,369.579c-0.118,12.837-6.398,19.783-17.196,19.908c-10.779,0.132-17.593-6.966-17.646-19.512 c-0.179-43.352-0.185-86.696,0.007-130.041c0.059-12.256,7.302-19.921,17.896-19.222c11.425,0.752,16.992,7.448,16.992,18.833 c0,22.104,0,44.216,0,66.327C395.677,327.105,395.828,348.345,395.617,369.579z M463.981,391.868 c-34.399-0.336-59.037-26.444-58.786-62.289c0.251-35.66,25.304-60.713,60.383-60.396c34.631,0.304,59.374,26.306,58.998,61.986 C524.207,366.492,498.534,392.205,463.981,391.868z"/>
+        <div class="mobile-menu-footer-hub">
+          <div class="social-hub-centered">
+            <div class="social-links-row-centered">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-link-item-hub"
+                data-social="github">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                  <path d="M9 18c-4.51 2-5-2-7-2" />
                 </svg>
               </a>
-              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="contact-social-link" aria-label="Facebook" data-social="facebook">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"/></svg>
+              <a href="https://zalo.me/" target="_blank" rel="noopener noreferrer" class="social-link-item-hub"
+                data-social="zalo">
+                <svg width="18" height="18" viewBox="0 0 615 614" fill="currentColor">
+                  <path
+                    d="M464.721,301.399c-13.984-0.014-23.707,11.478-23.944,28.312c-0.251,17.771,9.168,29.208,24.037,29.202 c14.287-0.007,23.799-11.095,24.01-27.995C489.028,313.536,479.127,301.399,464.721,301.399z" />
+                  <path
+                    d="M291.83,301.392c-14.473-0.316-24.578,11.603-24.604,29.024c-0.02,16.959,9.294,28.259,23.496,28.502 c15.072,0.251,24.592-10.87,24.539-28.707C315.214,313.318,305.769,301.696,291.83,301.392z" />
+                  <path
+                    d="M310.518,3.158C143.102,3.158,7.375,138.884,7.375,306.3s135.727,303.142,303.143,303.142 c167.415,0,303.143-135.727,303.143-303.142S477.933,3.158,310.518,3.158z M217.858,391.083 c-33.364,0.818-66.828,1.353-100.133-0.343c-21.326-1.095-27.652-18.647-14.248-36.583c21.55-28.826,43.886-57.065,65.792-85.621 c2.546-3.305,6.214-5.996,7.15-12.705c-16.609,0-32.784,0.04-48.958-0.013c-19.195-0.066-28.278-5.805-28.14-17.652 c0.132-11.768,9.175-17.329,28.397-17.348c25.159-0.026,50.324-0.06,75.476,0.026c9.637,0.033,19.604,0.105,25.304,9.789 c6.22,10.561,0.284,19.512-5.646,27.454c-21.26,28.497-43.015,56.624-64.559,84.902c-2.599,3.41-5.119,6.88-9.453,12.725 c23.424,0,44.123-0.053,64.816,0.026c8.674,0.026,16.662,1.873,19.941,11.267C237.892,379.329,231.368,390.752,217.858,391.083z M350.854,330.211c0,13.417-0.093,26.841,0.039,40.265c0.073,7.599-2.599,13.647-9.512,17.084 c-7.296,3.642-14.71,3.028-20.304-2.968c-3.997-4.281-6.214-3.213-10.488-0.422c-17.955,11.728-39.908,9.96-56.597-3.866 c-29.928-24.789-30.026-74.803-0.211-99.776c16.194-13.562,39.592-15.462,56.709-4.143c3.951,2.619,6.201,4.815,10.396-0.053 c5.39-6.267,13.055-6.761,20.271-3.357c7.454,3.509,9.935,10.165,9.776,18.265C350.67,304.222,350.86,317.217,350.854,330.211z M395.617,369.579c-0.118,12.837-6.398,19.783-17.196,19.908c-10.779,0.132-17.593-6.966-17.646-19.512 c-0.179-43.352-0.185-86.696,0.007-130.041c0.059-12.256,7.302-19.921,17.896-19.222c11.425,0.752,16.992,7.448,16.992,18.833 c0,22.104,0,44.216,0,66.327C395.677,327.105,395.828,348.345,395.617,369.579z M463.981,391.868 c-34.399-0.336-59.037-26.444-58.786-62.289c0.251-35.66,25.304-60.713,60.383-60.396c34.631,0.304,59.374,26.306,58.998,61.986 C524.207,366.492,498.534,392.205,463.981,391.868z" />
+                </svg>
               </a>
-              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="contact-social-link" aria-label="Instagram" data-social="instagram">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="social-link-item-hub"
+                data-social="facebook">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                </svg>
               </a>
-              <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="contact-social-link" aria-label="Telegram" data-social="telegram">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zM17.65 8.232l-1.933 9.112c-.145.64-.523.798-1.06.498L11.7 15.58l-1.42 1.368c-.157.157-.289.289-.59.289l.21-2.981L15.33 9.531c.236-.21-.051-.327-.367-.116l-6.71 4.225-2.89-.904c-.628-.196-.64-.628.13-.928l11.31-4.359c.523-.196.981.116.847.783z"/></svg>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                class="social-link-item-hub" data-social="instagram">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                </svg>
               </a>
             </div>
-
-            <div class="contact-avail-card">
-              <div class="contact-avail-header">
-                <span class="contact-avail-dot animate-pulse"></span>
-                <span class="contact-avail-label">Sẵn sàng nhận dự án</span>
-              </div>
-              <p class="contact-avail-desc">Mở lòng với các dự án tự do hoặc các cơ hội hợp tác mới lạ.</p>
-            </div>
           </div>
-
-          <!-- Right: Form -->
-          <div class="contact-form-col" data-animate="slide-right">
-            <form id="contact-form" class="contact-form">
-              <div class="contact-form-row">
-                <div class="contact-input-group">
-                  <label class="contact-input-label">Tên của bạn</label>
-                  <input class="contact-input" type="text" name="name" placeholder="John Doe" required />
-                </div>
-                <div class="contact-input-group">
-                  <label class="contact-input-label">Địa chỉ Email</label>
-                  <input class="contact-input" type="email" name="email" placeholder="hello@example.com" required />
-                </div>
-              </div>
-              <div class="contact-input-group">
-                <label class="contact-input-label">Chủ Đề</label>
-                <input class="contact-input" type="text" name="subject" placeholder="Project inquiry..." />
-              </div>
-              <div class="contact-input-group">
-                <label class="contact-input-label">Lời Nhắn</label>
-                <textarea class="contact-input contact-textarea" name="message" placeholder="Tell me about your project..." required></textarea>
-              </div>
-              <button type="submit" class="contact-submit-btn" style="background:linear-gradient(135deg,var(--primary) 0%,#0052CC 50%,#003D99 100%);">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
-                Gửi Tin Nhắn
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- ══════════════════════════════════════════════════════ -->
-  <!-- FOOTER                                                  -->
-  <!-- ══════════════════════════════════════════════════════ -->
-  <footer class="footer">
-    <div class="footer-gradient-line"></div>
-    <div class="footer-container">
-      <div class="footer-grid">
-        <!-- Brand -->
-        <div class="footer-col footer-col-brand">
-          <div class="footer-logo">
-            <div class="navbar-logo-icon" style="height: 1.5rem; width: 1.5rem;">
-              <img src="Images/Nghuy.png" alt="Logo" class="navbar-logo-img" />
-            </div>
-            <span class="footer-logo-text">NG<span class="footer-logo-highlight">HUY</span></span>
-          </div>
-          <p class="footer-tagline">
-            <span class="footer-person-name">Nguyễn Ngọc Huy</span><br/>
-            <span class="footer-nickname">(<span class="footer-alias">Ngọc Huy</span>)</span>
-          </p>
-          <div class="footer-location">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="footer-icon-primary"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            <span class="footer-location-text">Vietnam</span>
-          </div>
-        </div>
-
-        <!-- Links -->
-        <div class="footer-col footer-col-links">
-          <h4 class="footer-col-title">Liên Kết</h4>
-          <nav class="footer-nav-vertical">
-            <a href="#home" data-scroll-to="#home" class="footer-nav-link">Trang Chủ</a>
-            <a href="#about" data-scroll-to="#about" class="footer-nav-link">Về Tôi</a>
-            <a href="#academic" data-scroll-to="#academic" class="footer-nav-link">Tư Duy</a>
-            <a href="#portfolio" data-scroll-to="#portfolio" class="footer-nav-link">Dự Án</a>
-            <a href="#contact" data-scroll-to="#contact" class="footer-nav-link">Kết Nối</a>
-          </nav>
-        </div>
-
-        <!-- Social -->
-        <div class="footer-col footer-col-social">
-          <h4 class="footer-col-title">Kết Nối</h4>
-          <div class="footer-contact-info">
-            <a href="mailto:contact@nghuy.vn" class="footer-contact-link footer-email-link">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="footer-icon-primary"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-              <span>contact@nghuy.vn</span>
-            </a>
-          </div>
-          <div class="footer-social-wrapper">
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="GitHub" data-social="github">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
-            </a>
-            <a href="https://zalo.me/" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Zalo" data-social="zalo">
-              <svg width="20" height="20" viewBox="0 0 615 614" fill="currentColor">
-                <path d="M464.721,301.399c-13.984-0.014-23.707,11.478-23.944,28.312c-0.251,17.771,9.168,29.208,24.037,29.202 c14.287-0.007,23.799-11.095,24.01-27.995C489.028,313.536,479.127,301.399,464.721,301.399z"/>
-                <path d="M291.83,301.392c-14.473-0.316-24.578,11.603-24.604,29.024c-0.02,16.959,9.294,28.259,23.496,28.502 c15.072,0.251,24.592-10.87,24.539-28.707C315.214,313.318,305.769,301.696,291.83,301.392z"/>
-                <path d="M310.518,3.158C143.102,3.158,7.375,138.884,7.375,306.3s135.727,303.142,303.143,303.142 c167.415,0,303.143-135.727,303.143-303.142S477.933,3.158,310.518,3.158z M217.858,391.083 c-33.364,0.818-66.828,1.353-100.133-0.343c-21.326-1.095-27.652-18.647-14.248-36.583c21.55-28.826,43.886-57.065,65.792-85.621 c2.546-3.305,6.214-5.996,7.15-12.705c-16.609,0-32.784,0.04-48.958-0.013c-19.195-0.066-28.278-5.805-28.14-17.652 c0.132-11.768,9.175-17.329,28.397-17.348c25.159-0.026,50.324-0.06,75.476,0.026c9.637,0.033,19.604,0.105,25.304,9.789 c6.22,10.561,0.284,19.512-5.646,27.454c-21.26,28.497-43.015,56.624-64.559,84.902c-2.599,3.41-5.119,6.88-9.453,12.725 c23.424,0,44.123-0.053,64.816,0.026c8.674,0.026,16.662,1.873,19.941,11.267C237.892,379.329,231.368,390.752,217.858,391.083z M350.854,330.211c0,13.417-0.093,26.841,0.039,40.265c0.073,7.599-2.599,13.647-9.512,17.084 c-7.296,3.642-14.71,3.028-20.304-2.968c-3.997-4.281-6.214-3.213-10.488-0.422c-17.955,11.728-39.908,9.96-56.597-3.866 c-29.928-24.789-30.026-74.803-0.211-99.776c16.194-13.562,39.592-15.462,56.709-4.143c3.951,2.619,6.201,4.815,10.396-0.053 c5.39-6.267,13.055-6.761,20.271-3.357c7.454,3.509,9.935,10.165,9.776,18.265C350.67,304.222,350.86,317.217,350.854,330.211z M395.617,369.579c-0.118,12.837-6.398,19.783-17.196,19.908c-10.779,0.132-17.593-6.966-17.646-19.512 c-0.179-43.352-0.185-86.696,0.007-130.041c0.059-12.256,7.302-19.921,17.896-19.222c11.425,0.752,16.992,7.448,16.992,18.833 c0,22.104,0,44.216,0,66.327C395.677,327.105,395.828,348.345,395.617,369.579z M463.981,391.868 c-34.399-0.336-59.037-26.444-58.786-62.289c0.251-35.66,25.304-60.713,60.383-60.396c34.631,0.304,59.374,26.306,58.998,61.986 C524.207,366.492,498.534,392.205,463.981,391.868z"/>
+          <div class="mobile-actions-hub-vertical">
+            <button class="hub-action-btn-ai-full glow-box-primary">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                class="sparkle-primary">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
               </svg>
-            </a>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Facebook" data-social="facebook">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"/></svg>
-            </a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Instagram" data-social="instagram">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-            </a>
-            <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Telegram" data-social="telegram">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zM17.65 8.232l-1.933 9.112c-.145.64-.523.798-1.06.498L11.7 15.58l-1.42 1.368c-.157.157-.289.289-.59.289l.21-2.981L15.33 9.531c.236-.21-.051-.327-.367-.116l-6.71 4.225-2.89-.904c-.628-.196-.64-.628.13-.928l11.31-4.359c.523-.196.981.116.847.783z"/></svg>
+              <span>Chat with HuyBot</span>
+            </button>
+            <a href="mailto:contact@nghuy.vn" class="hub-action-btn-hire-full">
+              <span>Liên hệ ngay</span>
             </a>
           </div>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <div class="footer-bottom-divider"></div>
-        <div class="footer-bottom-content">
-          <p class="footer-copyright">
-            © <span class="footer-year"></span> <span class="footer-name-highlight footer-person-name">Nguyễn Ngọc Huy</span>. Đã đăng ký bản quyền.
-          </p>
         </div>
       </div>
     </div>
-  </footer>
 
-  <!-- ── ChatBot Panel ─────────────────────────────────────── -->
-  <div id="chatbot-panel" class="chatbot-panel-elite">
-    <div class="chatbot-window-elite">
-      <!-- Header -->
-      <div class="chatbot-header">
-        <div class="chatbot-header-info">
-          <div class="chatbot-avatar">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>
-          </div>
-          <div class="chatbot-header-text">
-            <span class="chatbot-label">AI ASSISTANT</span>
-            <h4>huybot</h4>
-          </div>
-        </div>
-        <div class="chatbot-header-actions">
-          <div class="chatbot-status">
-            <span class="chatbot-status-dot"></span>
-            Online
-          </div>
-          <button id="chatbot-close" class="chatbot-close-elite" aria-label="Close chatbot">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-          </button>
-        </div>
-      </div>
+    <!-- ══════════════════════════════════════════════════════ -->
+    <!-- MAIN CONTENT                                            -->
+    <!-- ══════════════════════════════════════════════════════ -->
+    <main>
 
-      <!-- Messages -->
-      <div id="chatbot-messages" class="chatbot-messages">
-        <div class="message message-ai">
-          Xin chào! Mình là <strong>huybot</strong>. Mình có thể trả lời các câu hỏi về Nguyễn Ngọc Huy và dự án của anh ấy. Bạn muốn hỏi gì nào?
-        </div>
-        <div id="typing-indicator" class="typing-indicator" style="display:none">
-          <span class="typing-dot"></span>
-          <span class="typing-dot"></span>
-          <span class="typing-dot"></span>
-        </div>
-      </div>
+      <!-- ── HERO ──────────────────────────────────────────── -->
+      <section id="home" class="hero-section">
+        <div class="hero-radial-highlight"></div>
+        <div class="hero-container">
+          <div class="hero-grid">
 
-      <!-- Footer Input -->
-      <div class="chatbot-footer">
-        <form id="chatbot-form" class="chatbot-input-wrapper-elite">
-          <input id="chatbot-input" type="text" class="chatbot-input-elite" placeholder="Hỏi huybot về dự án của Huy..." />
-          <button type="submit" class="chatbot-send-elite" aria-label="Send">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
-          </button>
-        </form>
+            <!-- Left: Text -->
+            <div class="hero-content">
+              <!-- Badge -->
+              <div class="hero-badge" data-animate="fade-up">
+                <div class="hero-badge-shine animate-shimmer"></div>
+                <span class="hero-badge-dot"></span>
+                <span class="hero-badge-text">Tuyệt vời &amp; Đam mê</span>
+              </div>
+
+              <!-- Headline -->
+              <div data-animate="fade-up">
+                <h1 style="font-family:var(--font-display);font-weight:800;line-height:1.05;letter-spacing:-0.025em">
+                  <span class="hero-h1-first">Kỹ Sư</span>
+                  <span class="hero-h1-second">Phần Mềm</span>
+                </h1>
+              </div>
+
+              <!-- Typewriter -->
+              <div class="hero-typewriter-wrapper" data-animate="fade-up">
+                <span class="typewriter-container">
+                  <span id="hero-typewriter-text" class="typewriter-text"></span>
+                  <span class="typewriter-cursor"></span>
+                </span>
+              </div>
+
+              <!-- Bio -->
+              <p class="hero-bio" data-animate="fade-up">Xin chào, tôi là Nguyễn Ngọc Huy. Đam mê lớn nhất của tôi là
+                đơn giản hóa sự phức tạp. Thay vì cố gắng tạo ra những cỗ máy khổng lồ, tôi tập trung thiết kế các giải
+                pháp phần mềm tinh gọn, ổn định và thực sự giải quyết được bài toán thực tế.</p>
+
+              <!-- CTA Buttons -->
+              <div class="hero-actions" data-animate="fade-up">
+                <a href="#portfolio" data-scroll-to="#portfolio" class="hero-btn-primary">
+                  <div class="hero-btn-primary-shine"></div>
+                  <span class="hero-btn-primary-text">
+                    Dự Án Cá Nhân
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                      <polyline points="15 3 21 3 21 9" />
+                      <line x1="10" y1="14" x2="21" y2="3" />
+                    </svg>
+                  </span>
+                </a>
+                <a href="mailto:contact@nghuy.vn" class="hero-btn-secondary">
+                  Kết Nối
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                    <polyline points="22,6 12,13 2,6" />
+                  </svg>
+                </a>
+              </div>
+
+              <!-- Social Links -->
+              <div class="hero-socials" data-animate="fade-up">
+                <div class="hero-socials-list">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="hero-social-link"
+                    aria-label="GitHub" data-social="github">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                    </svg>
+                  </a>
+                  <a href="https://zalo.me/" target="_blank" rel="noopener noreferrer" class="hero-social-link"
+                    aria-label="Zalo" data-social="zalo">
+                    <svg width="20" height="20" viewBox="0 0 615 614" fill="currentColor">
+                      <path
+                        d="M464.721,301.399c-13.984-0.014-23.707,11.478-23.944,28.312c-0.251,17.771,9.168,29.208,24.037,29.202 c14.287-0.007,23.799-11.095,24.01-27.995C489.028,313.536,479.127,301.399,464.721,301.399z" />
+                      <path
+                        d="M291.83,301.392c-14.473-0.316-24.578,11.603-24.604,29.024c-0.02,16.959,9.294,28.259,23.496,28.502 c15.072,0.251,24.592-10.87,24.539-28.707C315.214,313.318,305.769,301.696,291.83,301.392z" />
+                      <path
+                        d="M310.518,3.158C143.102,3.158,7.375,138.884,7.375,306.3s135.727,303.142,303.143,303.142 c167.415,0,303.143-135.727,303.143-303.142S477.933,3.158,310.518,3.158z M217.858,391.083 c-33.364,0.818-66.828,1.353-100.133-0.343c-21.326-1.095-27.652-18.647-14.248-36.583c21.55-28.826,43.886-57.065,65.792-85.621 c2.546-3.305,6.214-5.996,7.15-12.705c-16.609,0-32.784,0.04-48.958-0.013c-19.195-0.066-28.278-5.805-28.14-17.652 c0.132-11.768,9.175-17.329,28.397-17.348c25.159-0.026,50.324-0.06,75.476,0.026c9.637,0.033,19.604,0.105,25.304,9.789 c6.22,10.561,0.284,19.512-5.646,27.454c-21.26,28.497-43.015,56.624-64.559,84.902c-2.599,3.41-5.119,6.88-9.453,12.725 c23.424,0,44.123-0.053,64.816,0.026c8.674,0.026,16.662,1.873,19.941,11.267C237.892,379.329,231.368,390.752,217.858,391.083z M350.854,330.211c0,13.417-0.093,26.841,0.039,40.265c0.073,7.599-2.599,13.647-9.512,17.084 c-7.296,3.642-14.71,3.028-20.304-2.968c-3.997-4.281-6.214-3.213-10.488-0.422c-17.955,11.728-39.908,9.96-56.597-3.866 c-29.928-24.789-30.026-74.803-0.211-99.776c16.194-13.562,39.592-15.462,56.709-4.143c3.951,2.619,6.201,4.815,10.396-0.053 c5.39-6.267,13.055-6.761,20.271-3.357c7.454,3.509,9.935,10.165,9.776,18.265C350.67,304.222,350.86,317.217,350.854,330.211z M395.617,369.579c-0.118,12.837-6.398,19.783-17.196,19.908c-10.779,0.132-17.593-6.966-17.646-19.512 c-0.179-43.352-0.185-86.696,0.007-130.041c0.059-12.256,7.302-19.921,17.896-19.222c11.425,0.752,16.992,7.448,16.992,18.833 c0,22.104,0,44.216,0,66.327C395.677,327.105,395.828,348.345,395.617,369.579z M463.981,391.868 c-34.399-0.336-59.037-26.444-58.786-62.289c0.251-35.66,25.304-60.713,60.383-60.396c34.631,0.304,59.374,26.306,58.998,61.986 C524.207,366.492,498.534,392.205,463.981,391.868z" />
+                    </svg>
+                  </a>
+                  <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="hero-social-link"
+                    aria-label="Facebook" data-social="facebook">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" />
+                    </svg>
+                  </a>
+                  <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                    class="hero-social-link" aria-label="Instagram" data-social="instagram">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                    </svg>
+                  </a>
+                  <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="hero-social-link"
+                    aria-label="Telegram" data-social="telegram">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zM17.65 8.232l-1.933 9.112c-.145.64-.523.798-1.06.498L11.7 15.58l-1.42 1.368c-.157.157-.289.289-.59.289l.21-2.981L15.33 9.531c.236-.21-.051-.327-.367-.116l-6.71 4.225-2.89-.904c-.628-.196-.64-.628.13-.928l11.31-4.359c.523-.196.981.116.847.783z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Code Panel -->
+            <div class="hero-code-panel-wrapper" data-animate="zoom">
+              <div class="hero-code-panel-glow"></div>
+              <div class="hero-code-panel-body">
+                <!-- Title bar -->
+                <div class="hero-code-panel-header">
+                  <div class="hero-code-panel-dots">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <span class="hero-code-panel-title">portfolio.js</span>
+                </div>
+                <!-- Code content -->
+                <div class="hero-code-panel-content">
+                  <div><span style="color:#60a5fa">const</span> <span style="color:#67e8f9">Developer</span> <span
+                      style="color:rgba(255,255,255,0.5)">= {</span></div>
+                  <div class="hero-code-panel-line-indent"><span style="color:#93c5fd">name</span><span
+                      style="color:rgba(255,255,255,0.5)">:</span> <span
+                      style="color:#6ee7b7;border-bottom:1px solid rgba(110,231,183,0.3)">"Nguyễn Ngọc Huy"</span><span
+                      style="color:rgba(255,255,255,0.5)">,</span></div>
+                  <div class="hero-code-panel-line-indent"><span style="color:#93c5fd">role</span><span
+                      style="color:rgba(255,255,255,0.5)">:</span> <span style="color:#6ee7b7">"Software
+                      Engineer"</span><span style="color:rgba(255,255,255,0.5)">,</span></div>
+                  <div class="hero-code-panel-line-indent"><span style="color:#93c5fd">passion</span><span
+                      style="color:rgba(255,255,255,0.5)">:</span> <span style="color:#6ee7b7">"Đơn Giản Hóa Sự Phức
+                      Tạp"</span><span style="color:rgba(255,255,255,0.5)">,</span></div>
+                  <div class="hero-code-panel-line-indent"
+                    style="display:flex;flex-wrap:wrap;gap:0.5rem;padding-top:0.5rem;padding-bottom:0.5rem">
+                    <span style="color:#93c5fd;margin-top:0.25rem">skills</span><span
+                      style="color:rgba(255,255,255,0.5);margin-top:0.25rem">: [</span>
+                    <span class="hero-code-panel-skill-badge">"React",</span>
+                    <span class="hero-code-panel-skill-badge">"Node.js",</span>
+                    <span class="hero-code-panel-skill-badge">"PHP",</span>
+                    <span class="hero-code-panel-skill-badge">"Python"</span>
+                    <span style="color:rgba(255,255,255,0.5);margin-top:0.25rem">],</span>
+                  </div>
+                  <div class="hero-code-panel-line-indent"
+                    style="display:flex;align-items:center;gap:0.5rem;padding-top:0.25rem">
+                    <span style="color:#93c5fd">status</span><span style="color:rgba(255,255,255,0.5)">:</span>
+                    <span class="status-blink">"Sẵn sàng nhận dự án"</span>
+                  </div>
+                  <div><span style="color:rgba(255,255,255,0.5)">}</span></div>
+                </div>
+                <!-- Scan line -->
+                <div class="hero-code-panel-scanline">
+                  <div class="hero-code-panel-scanline-bar animate-scan"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ── ABOUT ──────────────────────────────────────────── -->
+      <section id="about" class="about-section">
+        <div class="about-container">
+          <!-- Section Title -->
+          <div class="section-title-wrapper center" data-animate="fade-up">
+            <div class="premium-title-glow"></div>
+            <div class="section-header-container">
+              <div class="section-header-line left"></div>
+              <h2 class="section-heading">Câu Chuyện</h2>
+              <div class="section-header-line right"></div>
+            </div>
+            <p class="section-subtitle">Biến ý tưởng thành những trải nghiệm kỹ thuật số</p>
+          </div>
+
+          <!-- Bio + Avatar -->
+          <div class="about-top-grid">
+            <div class="about-bio-content">
+              <h4 class="about-hello" data-animate="slide-left">Xin chào, tôi là</h4>
+              <h2 class="about-name" data-animate="slide-right" id="about-name">Nguyễn Ngọc Huy</h2>
+              <p class="about-description" data-animate="slide-left" id="about-bio2">Tôi không tin vào sự phô trương của
+                công nghệ. Một đoạn code xuất sắc không phải là đoạn code dùng công nghệ phức tạp nhất, mà là đoạn code
+                dễ đọc nhất để đồng nghiệp sau này hiểu được.</p>
+              <div class="about-buttons" data-animate="zoom">
+                <a href="#" class="button button-primary">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                  </svg>
+                  Tải CV
+                </a>
+                <a href="#portfolio" data-scroll-to="#portfolio" class="button button-outline">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="16 18 22 12 16 6" />
+                    <polyline points="8 6 2 12 8 18" />
+                  </svg>
+                  Khám Phá Dự Án
+                </a>
+              </div>
+            </div>
+            <div class="about-avatar-container" data-animate="zoom">
+              <div class="about-avatar-circle">
+                <img src="Images/image.png" alt="Nguyễn Ngọc Huy" class="about-avatar-image" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Stats -->
+          <div id="stats-grid" class="about-stats-grid">
+            <!-- Dynamically rendered by JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ── ACADEMIC ────────────────────────────────────────── -->
+      <section id="academic" class="academic-section">
+        <div class="academic-container">
+          <!-- Title -->
+          <div class="section-title-wrapper center" data-animate="fade-up">
+            <div class="premium-title-glow"></div>
+            <div class="section-header-container">
+              <div class="section-header-line left"></div>
+              <h2 class="section-heading">Hành <span class="glow-text-primary" style="color:var(--accent)">Trình</span>
+              </h2>
+              <div class="section-header-line right"></div>
+            </div>
+            <p class="section-subtitle">Quá trình giáo dục và phát triển công nghệ</p>
+          </div>
+
+          <!-- Identity Block -->
+          <div class="academic-identity-block shadow-premium" data-animate="zoom">
+            <h2 class="academic-degree">Software Engineer</h2>
+            <h3 class="academic-major">Kỹ Sư Phần Mềm</h3>
+            <p class="academic-institution">Phát Triển Độc Lập</p>
+            <p class="academic-period">Hành Trình Kỷ Luật</p>
+          </div>
+
+          <!-- Timeline -->
+          <div class="timeline-wrapper">
+            <div class="timeline-line"></div>
+            <div id="timeline-items" class="timeline-items">
+              <!-- Rendered by JS -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── PORTFOLIO ──────────────────────────────────────── -->
+      <section id="portfolio" class="portfolio-section">
+        <div class="portfolio-container">
+          <!-- Title -->
+          <div class="section-title-wrapper center" data-animate="fade-up">
+            <div class="premium-title-glow"></div>
+            <div class="section-header-container">
+              <div class="section-header-line left"></div>
+              <h2 class="section-heading">Dự Án <span class="glow-text-primary" style="color:var(--accent)">Nổi
+                  Bật</span></h2>
+              <div class="section-header-line right"></div>
+            </div>
+            <p class="section-subtitle">Khám phá hành trình của tôi qua các website, chứng chỉ tự do và chuyên môn công
+              nghệ. Từng dòng code đều khẳng định được sự đam mê của bản thân mình.</p>
+          </div>
+
+          <!-- Tab Navigation -->
+          <div class="portfolio-tabs-nav">
+            <div class="portfolio-tabs-container">
+              <button class="portfolio-tab-btn-elite" data-tab="projects">
+                <div class="portfolio-tab-highlight"></div>
+                <span class="portfolio-tab-label-elite">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="16 18 22 12 16 6" />
+                    <polyline points="8 6 2 12 8 18" />
+                  </svg>
+                  Dự Án
+                </span>
+              </button>
+              <button class="portfolio-tab-btn-elite" data-tab="certificates">
+                <div class="portfolio-tab-highlight"></div>
+                <span class="portfolio-tab-label-elite">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="8" r="6" />
+                    <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" />
+                  </svg>
+                  Chứng Chỉ
+                </span>
+              </button>
+              <button class="portfolio-tab-btn-elite" data-tab="techstack">
+                <div class="portfolio-tab-highlight"></div>
+                <span class="portfolio-tab-label-elite">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                    <polyline points="2 17 12 22 22 17" />
+                    <polyline points="2 12 12 17 22 12" />
+                  </svg>
+                  Công Nghệ
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Tab Content Panels -->
+          <div class="portfolio-content-area-elite">
+            <div id="tab-projects">
+              <div id="projects-grid" class="portfolio-projects-grid"></div>
+            </div>
+            <div id="tab-certificates" style="display:none">
+              <div id="certs-grid" class="portfolio-certs-grid"></div>
+            </div>
+            <div id="tab-techstack" style="display:none">
+              <div id="tech-stack-container" class="tech-stack-organized"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Modal -->
+        <div id="project-modal" class="project-modal-overlay">
+          <div class="project-modal-container">
+            <button id="modal-close-btn" class="project-modal-close" aria-label="Close">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
+            <div class="elitist-layout">
+              <!-- Intro bar -->
+              <div class="project-modal-intro-bar">
+                <div class="intro-bar-left">
+                  <span class="intro-meta-label">Project No.</span>
+                  <span id="modal-project-num" class="intro-meta-value">001</span>
+                  <div class="intro-meta-divider"></div>
+                  <span class="intro-meta-label">Status</span>
+                  <span id="modal-status-dot" class="project-status-dot dot-deployed"></span>
+                  <span id="modal-project-status-text" class="intro-meta-value">Hoạt động</span>
+                </div>
+              </div>
+              <!-- Title -->
+              <h2 id="modal-title" class="project-modal-elite-title">Project Title</h2>
+              <!-- Gallery -->
+              <div class="project-modal-hero-gallery">
+                <div class="gallery-main-frame">
+                  <img id="modal-img" src="" alt="" class="gallery-img" />
+                </div>
+                <div id="modal-tags" class="gallery-tags-floating"></div>
+              </div>
+              <!-- Narrative -->
+              <div class="project-modal-narrative-section">
+                <div class="narrative-grid">
+                  <div class="narrative-main-col">
+                    <h4 class="narrative-subtitle">Project Synopsis</h4>
+                    <p id="modal-desc" class="narrative-desc-lead"></p>
+                    <p id="modal-ext-desc" class="narrative-desc-full"></p>
+                  </div>
+                  <div class="narrative-specs-col">
+                    <div class="specs-elite-grid">
+                      <div class="elite-spec">
+                        <span class="spec-elite-label">Engineering Focus</span>
+                        <p id="modal-spec-focus" class="spec-elite-value"></p>
+                      </div>
+                      <div class="elite-spec">
+                        <span class="spec-elite-label">Execution Status</span>
+                        <p id="modal-spec-status" class="spec-elite-value"></p>
+                      </div>
+                      <div class="elite-spec">
+                        <span class="spec-elite-label">Project Ownership</span>
+                        <p class="spec-elite-value">Nguyễn Ngọc Huy</p>
+                      </div>
+                    </div>
+                    <div class="narrative-actions-elite">
+                      <a id="modal-live-btn" href="#" target="_blank" rel="noopener noreferrer"
+                        class="elite-action-btn primary">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                          stroke-width="2">
+                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                          <polyline points="15 3 21 3 21 9" />
+                          <line x1="10" y1="14" x2="21" y2="3" />
+                        </svg>
+                        Mở Trang Web
+                      </a>
+                      <button class="elite-action-btn secondary" onclick="closeProjectModal()">Đóng Giao Diện</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── CONTACT ────────────────────────────────────────── -->
+      <section id="contact" class="contact-section">
+        <div class="contact-container">
+          <!-- Title -->
+          <div class="section-title-wrapper center" data-animate="fade-up">
+            <div class="premium-title-glow"></div>
+            <div class="section-header-container">
+              <div class="section-header-line left"></div>
+              <h2 class="section-heading">Kết Nối <span class="glow-text-primary" style="color:var(--accent)">Với
+                  Tôi</span></h2>
+              <div class="section-header-line right"></div>
+            </div>
+            <p class="section-subtitle">Bạn có ý tưởng hoặc dự án thú vị? Hộp thư của mình luôn mở.</p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Left Col -->
+            <div class="contact-left-col" data-animate="slide-left">
+              <div>
+                <h3 class="contact-header-title">Cùng nhau hợp tác</h3>
+                <p class="contact-header-desc">Mình luôn tìm kiếm những dự án mới thú vị. Dù bạn cần một website, web
+                  app hay đơn giản là muốn trò chuyện — hãy thoải mái liên hệ!</p>
+              </div>
+
+              <div class="contact-info-list">
+                <div class="contact-info-item">
+                  <div class="contact-info-icon email">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                      <polyline points="22,6 12,13 2,6" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="contact-info-label">Email</p>
+                    <a href="mailto:contact@nghuy.vn" class="contact-info-value contact-email-link">contact@nghuy.vn</a>
+                  </div>
+                </div>
+                <div class="contact-info-item">
+                  <div class="contact-info-icon location">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                      <circle cx="12" cy="10" r="3" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="contact-info-label">Khu Vực</p>
+                    <p class="contact-info-value" id="contact-location">Vietnam</p>
+                  </div>
+                </div>
+              </div>
+
+              <span class="contact-social-label">Tìm tôi tại</span>
+              <div class="contact-social-list">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="contact-social-link"
+                  aria-label="GitHub" data-social="github">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                  </svg>
+                </a>
+                <a href="https://zalo.me/" target="_blank" rel="noopener noreferrer" class="contact-social-link"
+                  aria-label="Zalo" data-social="zalo">
+                  <svg width="18" height="18" viewBox="0 0 615 614" fill="currentColor">
+                    <path
+                      d="M464.721,301.399c-13.984-0.014-23.707,11.478-23.944,28.312c-0.251,17.771,9.168,29.208,24.037,29.202 c14.287-0.007,23.799-11.095,24.01-27.995C489.028,313.536,479.127,301.399,464.721,301.399z" />
+                    <path
+                      d="M291.83,301.392c-14.473-0.316-24.578,11.603-24.604,29.024c-0.02,16.959,9.294,28.259,23.496,28.502 c15.072,0.251,24.592-10.87,24.539-28.707C315.214,313.318,305.769,301.696,291.83,301.392z" />
+                    <path
+                      d="M310.518,3.158C143.102,3.158,7.375,138.884,7.375,306.3s135.727,303.142,303.143,303.142 c167.415,0,303.143-135.727,303.143-303.142S477.933,3.158,310.518,3.158z M217.858,391.083 c-33.364,0.818-66.828,1.353-100.133-0.343c-21.326-1.095-27.652-18.647-14.248-36.583c21.55-28.826,43.886-57.065,65.792-85.621 c2.546-3.305,6.214-5.996,7.15-12.705c-16.609,0-32.784,0.04-48.958-0.013c-19.195-0.066-28.278-5.805-28.14-17.652 c0.132-11.768,9.175-17.329,28.397-17.348c25.159-0.026,50.324-0.06,75.476,0.026c9.637,0.033,19.604,0.105,25.304,9.789 c6.22,10.561,0.284,19.512-5.646,27.454c-21.26,28.497-43.015,56.624-64.559,84.902c-2.599,3.41-5.119,6.88-9.453,12.725 c23.424,0,44.123-0.053,64.816,0.026c8.674,0.026,16.662,1.873,19.941,11.267C237.892,379.329,231.368,390.752,217.858,391.083z M350.854,330.211c0,13.417-0.093,26.841,0.039,40.265c0.073,7.599-2.599,13.647-9.512,17.084 c-7.296,3.642-14.71,3.028-20.304-2.968c-3.997-4.281-6.214-3.213-10.488-0.422c-17.955,11.728-39.908,9.96-56.597-3.866 c-29.928-24.789-30.026-74.803-0.211-99.776c16.194-13.562,39.592-15.462,56.709-4.143c3.951,2.619,6.201,4.815,10.396-0.053 c5.39-6.267,13.055-6.761,20.271-3.357c7.454,3.509,9.935,10.165,9.776,18.265C350.67,304.222,350.86,317.217,350.854,330.211z M395.617,369.579c-0.118,12.837-6.398,19.783-17.196,19.908c-10.779,0.132-17.593-6.966-17.646-19.512 c-0.179-43.352-0.185-86.696,0.007-130.041c0.059-12.256,7.302-19.921,17.896-19.222c11.425,0.752,16.992,7.448,16.992,18.833 c0,22.104,0,44.216,0,66.327C395.677,327.105,395.828,348.345,395.617,369.579z M463.981,391.868 c-34.399-0.336-59.037-26.444-58.786-62.289c0.251-35.66,25.304-60.713,60.383-60.396c34.631,0.304,59.374,26.306,58.998,61.986 C524.207,366.492,498.534,392.205,463.981,391.868z" />
+                  </svg>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                  class="contact-social-link" aria-label="Facebook" data-social="facebook">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" />
+                  </svg>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                  class="contact-social-link" aria-label="Instagram" data-social="instagram">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                  </svg>
+                </a>
+                <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="contact-social-link"
+                  aria-label="Telegram" data-social="telegram">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zM17.65 8.232l-1.933 9.112c-.145.64-.523.798-1.06.498L11.7 15.58l-1.42 1.368c-.157.157-.289.289-.59.289l.21-2.981L15.33 9.531c.236-.21-.051-.327-.367-.116l-6.71 4.225-2.89-.904c-.628-.196-.64-.628.13-.928l11.31-4.359c.523-.196.981.116.847.783z" />
+                  </svg>
+                </a>
+              </div>
+
+              <div class="contact-avail-card">
+                <div class="contact-avail-header">
+                  <span class="contact-avail-dot animate-pulse"></span>
+                  <span class="contact-avail-label">Sẵn sàng nhận dự án</span>
+                </div>
+                <p class="contact-avail-desc">Mở lòng với các dự án tự do hoặc các cơ hội hợp tác mới lạ.</p>
+              </div>
+            </div>
+
+            <!-- Right: Form -->
+            <div class="contact-form-col" data-animate="slide-right">
+              <form id="contact-form" class="contact-form">
+                <div class="contact-form-row">
+                  <div class="contact-input-group">
+                    <label class="contact-input-label">Tên của bạn</label>
+                    <input class="contact-input" type="text" name="name" placeholder="John Doe" required />
+                  </div>
+                  <div class="contact-input-group">
+                    <label class="contact-input-label">Địa chỉ Email</label>
+                    <input class="contact-input" type="email" name="email" placeholder="hello@example.com" required />
+                  </div>
+                </div>
+                <div class="contact-input-group">
+                  <label class="contact-input-label">Chủ Đề</label>
+                  <input class="contact-input" type="text" name="subject" placeholder="Project inquiry..." />
+                </div>
+                <div class="contact-input-group">
+                  <label class="contact-input-label">Lời Nhắn</label>
+                  <textarea class="contact-input contact-textarea" name="message"
+                    placeholder="Tell me about your project..." required></textarea>
+                </div>
+                <button type="submit" class="contact-submit-btn"
+                  style="background:linear-gradient(135deg,var(--primary) 0%,#0052CC 50%,#003D99 100%);">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="22" y1="2" x2="11" y2="13" />
+                    <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                  </svg>
+                  Gửi Tin Nhắn
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ══════════════════════════════════════════════════════ -->
+    <!-- FOOTER                                                  -->
+    <!-- ══════════════════════════════════════════════════════ -->
+    <footer class="footer">
+      <div class="footer-gradient-line"></div>
+      <div class="footer-container">
+        <div class="footer-grid">
+          <!-- Brand -->
+          <div class="footer-col footer-col-brand">
+            <div class="footer-logo">
+              <a href="#home" data-scroll-to="#home" class="navbar-logo">
+                <div class="navbar-logo-icon">
+                  <img src="Images/Nghuy.png" alt="Logo" class="navbar-logo-img" />
+                </div>
+                <span class="navbar-logo-text">NGHUY</span>
+              </a>
+              <p class="footer-tagline">
+                <span class="footer-person-name">Nguyễn Ngọc Huy</span><br />
+                <span class="footer-nickname">(<span class="footer-alias">Ngọc Huy</span>)</span>
+              </p>
+              <div class="footer-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  class="footer-icon-primary">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                <span class="footer-location-text">Vietnam</span>
+              </div>
+            </div>
+
+            <!-- Links -->
+            <div class="footer-col footer-col-links">
+              <h4 class="footer-col-title">Liên Kết</h4>
+              <nav class="footer-nav-vertical">
+                <a href="#home" data-scroll-to="#home" class="footer-nav-link">Trang Chủ</a>
+                <a href="#about" data-scroll-to="#about" class="footer-nav-link">Về Tôi</a>
+                <a href="#academic" data-scroll-to="#academic" class="footer-nav-link">Tư Duy</a>
+                <a href="#portfolio" data-scroll-to="#portfolio" class="footer-nav-link">Dự Án</a>
+                <a href="#contact" data-scroll-to="#contact" class="footer-nav-link">Kết Nối</a>
+              </nav>
+            </div>
+
+            <!-- Social -->
+            <div class="footer-col footer-col-social">
+              <h4 class="footer-col-title">Kết Nối</h4>
+              <div class="footer-contact-info">
+                <a href="mailto:contact@nghuy.vn" class="footer-contact-link footer-email-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    class="footer-icon-primary">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                    <polyline points="22,6 12,13 2,6" />
+                  </svg>
+                  <span>contact@nghuy.vn</span>
+                </a>
+              </div>
+              <div class="footer-social-wrapper">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="footer-social-btn"
+                  aria-label="GitHub" data-social="github">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                  </svg>
+                </a>
+                <a href="https://zalo.me/" target="_blank" rel="noopener noreferrer" class="footer-social-btn"
+                  aria-label="Zalo" data-social="zalo">
+                  <svg width="20" height="20" viewBox="0 0 615 614" fill="currentColor">
+                    <path
+                      d="M464.721,301.399c-13.984-0.014-23.707,11.478-23.944,28.312c-0.251,17.771,9.168,29.208,24.037,29.202 c14.287-0.007,23.799-11.095,24.01-27.995C489.028,313.536,479.127,301.399,464.721,301.399z" />
+                    <path
+                      d="M291.83,301.392c-14.473-0.316-24.578,11.603-24.604,29.024c-0.02,16.959,9.294,28.259,23.496,28.502 c15.072,0.251,24.592-10.87,24.539-28.707C315.214,313.318,305.769,301.696,291.83,301.392z" />
+                    <path
+                      d="M310.518,3.158C143.102,3.158,7.375,138.884,7.375,306.3s135.727,303.142,303.143,303.142 c167.415,0,303.143-135.727,303.143-303.142S477.933,3.158,310.518,3.158z M217.858,391.083 c-33.364,0.818-66.828,1.353-100.133-0.343c-21.326-1.095-27.652-18.647-14.248-36.583c21.55-28.826,43.886-57.065,65.792-85.621 c2.546-3.305,6.214-5.996,7.15-12.705c-16.609,0-32.784,0.04-48.958-0.013c-19.195-0.066-28.278-5.805-28.14-17.652 c0.132-11.768,9.175-17.329,28.397-17.348c25.159-0.026,50.324-0.06,75.476,0.026c9.637,0.033,19.604,0.105,25.304,9.789 c6.22,10.561,0.284,19.512-5.646,27.454c-21.26,28.497-43.015,56.624-64.559,84.902c-2.599,3.41-5.119,6.88-9.453,12.725 c23.424,0,44.123-0.053,64.816,0.026c8.674,0.026,16.662,1.873,19.941,11.267C237.892,379.329,231.368,390.752,217.858,391.083z M350.854,330.211c0,13.417-0.093,26.841,0.039,40.265c0.073,7.599-2.599,13.647-9.512,17.084 c-7.296,3.642-14.71,3.028-20.304-2.968c-3.997-4.281-6.214-3.213-10.488-0.422c-17.955,11.728-39.908,9.96-56.597-3.866 c-29.928-24.789-30.026-74.803-0.211-99.776c16.194-13.562,39.592-15.462,56.709-4.143c3.951,2.619,6.201,4.815,10.396-0.053 c5.39-6.267,13.055-6.761,20.271-3.357c7.454,3.509,9.935,10.165,9.776,18.265C350.67,304.222,350.86,317.217,350.854,330.211z M395.617,369.579c-0.118,12.837-6.398,19.783-17.196,19.908c-10.779,0.132-17.593-6.966-17.646-19.512 c-0.179-43.352-0.185-86.696,0.007-130.041c0.059-12.256,7.302-19.921,17.896-19.222c11.425,0.752,16.992,7.448,16.992,18.833 c0,22.104,0,44.216,0,66.327C395.677,327.105,395.828,348.345,395.617,369.579z M463.981,391.868 c-34.399-0.336-59.037-26.444-58.786-62.289c0.251-35.66,25.304-60.713,60.383-60.396c34.631,0.304,59.374,26.306,58.998,61.986 C524.207,366.492,498.534,392.205,463.981,391.868z" />
+                  </svg>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="footer-social-btn"
+                  aria-label="Facebook" data-social="facebook">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" />
+                  </svg>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="footer-social-btn"
+                  aria-label="Instagram" data-social="instagram">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                  </svg>
+                </a>
+                <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="footer-social-btn"
+                  aria-label="Telegram" data-social="telegram">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zM17.65 8.232l-1.933 9.112c-.145.64-.523.798-1.06.498L11.7 15.58l-1.42 1.368c-.157.157-.289.289-.59.289l.21-2.981L15.33 9.531c.236-.21-.051-.327-.367-.116l-6.71 4.225-2.89-.904c-.628-.196-.64-.628.13-.928l11.31-4.359c.523-.196.981.116.847.783z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <div class="footer-bottom-divider"></div>
+            <div class="footer-bottom-content">
+              <p class="footer-copyright">
+                © <span class="footer-year"></span> <span class="footer-name-highlight footer-person-name">Nguyễn Ngọc
+                  Huy</span>. Đã đăng ký bản quyền.
+              </p>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+    <!-- ── ChatBot Panel ─────────────────────────────────────── -->
+    <div id="chatbot-panel" class="chatbot-panel-elite">
+      <div class="chatbot-window-elite">
+        <!-- Header -->
+        <div class="chatbot-header">
+          <div class="chatbot-header-info">
+            <div class="chatbot-avatar">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2">
+                <path d="M12 8V4H8" />
+                <rect width="16" height="12" x="4" y="8" rx="2" />
+                <path d="M2 14h2" />
+                <path d="M20 14h2" />
+                <path d="M15 13v2" />
+                <path d="M9 13v2" />
+              </svg>
+            </div>
+            <div class="chatbot-header-text">
+              <span class="chatbot-label">AI ASSISTANT</span>
+              <h4>huybot</h4>
+            </div>
+          </div>
+          <div class="chatbot-header-actions">
+            <div class="chatbot-status">
+              <span class="chatbot-status-dot"></span>
+              Online
+            </div>
+            <button id="chatbot-close" class="chatbot-close-elite" aria-label="Close chatbot">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Messages -->
+        <div id="chatbot-messages" class="chatbot-messages">
+          <div class="message message-ai">
+            Xin chào! Mình là <strong>huybot</strong>. Mình có thể trả lời các câu hỏi về Nguyễn Ngọc Huy và dự án của
+            anh ấy. Bạn muốn hỏi gì nào?
+          </div>
+          <div id="typing-indicator" class="typing-indicator" style="display:none">
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+          </div>
+        </div>
+
+        <!-- Footer Input -->
+        <div class="chatbot-footer">
+          <form id="chatbot-form" class="chatbot-input-wrapper-elite">
+            <input id="chatbot-input" type="text" class="chatbot-input-elite"
+              placeholder="Hỏi huybot về dự án của Huy..." />
+            <button type="submit" class="chatbot-send-elite" aria-label="Send">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Floating ChatBot Button -->
-  <button id="floating-chat-btn" class="floating-chatbot-btn" aria-label="Mở Chat">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-  </button>
+    <!-- Floating ChatBot Button -->
+    <button id="floating-chat-btn" class="floating-chatbot-btn" aria-label="Mở Chat">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+      </svg>
+    </button>
 
-</div><!-- end #main-site -->
+  </div><!-- end #main-site -->
 
-<!-- ── Scripts ─────────────────────────────────────────────── -->
-<script src="js/data.js"></script>
-<script src="js/cursor.js"></script>
-<script src="js/scroll.js"></script>
-<script src="js/intro.js"></script>
-<script src="js/navbar.js"></script>
-<script src="js/hero.js"></script>
-<script src="js/sections.js"></script>
-<script src="js/chatbot.js"></script>
-<script src="js/main.js"></script>
+  <!-- ── Scripts ─────────────────────────────────────────────── -->
+  <script src="js/data.js"></script>
+  <script src="js/cursor.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/intro.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/hero.js"></script>
+  <script src="js/sections.js"></script>
+  <script src="js/chatbot.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
+
 </html>
