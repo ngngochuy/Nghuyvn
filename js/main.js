@@ -25,15 +25,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // 5. Hero
     initHero();
 
-    // 6. Scroll animations (IntersectionObserver)
-    initScrollAnimations();
-
-    // 7. Build dynamic sections
+    // 6. Build dynamic sections (must run BEFORE scroll animations
+    //    so the observer picks up all dynamically created elements)
     buildAbout();
     buildAcademic();
     buildPortfolio();
     buildContact();
     buildFooter();
+
+    // 7. Scroll animations (IntersectionObserver) — after all DOM is built
+    initScrollAnimations();
 
     // 8. ChatBot
     initChatBot();
