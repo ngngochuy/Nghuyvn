@@ -85,6 +85,9 @@ function buildAcademic() {
 let activeModalProject = null;
 
 function buildPortfolio() {
+  renderProjects();
+  renderCerts();
+  renderTechStack();
   initPortfolioTabs();
   initProjectModal();
 }

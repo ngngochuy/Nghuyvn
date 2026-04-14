@@ -370,7 +370,7 @@ main, section { position:relative;z-index:1; }
 .portfolio-tab-btn-elite.active .portfolio-tab-highlight { display:block; }
 .portfolio-tab-label-elite { position:relative;z-index:10;display:flex;align-items:center;gap:0.75rem; }
 @media (max-width:640px) { .portfolio-tabs-container { gap:0.25rem;padding:0.25rem;} .portfolio-tab-btn-elite { padding:0.6rem 0.875rem;font-size:0.65rem;} }
-.portfolio-content-area-elite > div { display:none; }
+/* Tab visibility controlled by JS */
 .portfolio-projects-grid { display:grid;grid-template-columns:1fr;gap:1.25rem; }
 @media (min-width:768px) { .portfolio-projects-grid { grid-template-columns:repeat(3,1fr);gap:1.5rem;max-width:75rem;margin:0 auto; } .project-span-2 { grid-column:span 2; } }
 .portfolio-certs-grid { display:grid;grid-template-columns:1fr;gap:0.75rem;max-width:56rem;margin:0 auto; }
