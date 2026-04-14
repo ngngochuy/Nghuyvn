@@ -411,6 +411,35 @@ main, section { position:relative;z-index:1; }
 .cert-card-icon { flex-shrink:0;opacity:0.15;transition:all 0.3s ease;color:var(--accent); }
 .cert-card:hover .cert-card-icon { opacity:0.6;transform:scale(1.1) rotate(5deg); }
 
+/* Featured Cert Card (Google) */
+.cert-featured-card { border:1px solid rgba(66,133,244,0.2);background:linear-gradient(135deg,rgba(66,133,244,0.06) 0%,rgba(0,20,60,0.4) 100%);border-radius:1.25rem;overflow:hidden;transition:all 0.4s ease; }
+.cert-featured-card:hover { border-color:rgba(66,133,244,0.4);box-shadow:0 0 40px rgba(66,133,244,0.15),0 20px 50px rgba(0,0,0,0.4);transform:translateY(-4px); }
+.cert-featured-inner { display:flex;gap:3rem;padding:3rem;align-items:stretch; }
+@media (max-width:768px) { .cert-featured-inner { flex-direction:column;gap:2rem;padding:2rem; } }
+.cert-featured-img-section { flex-shrink:0;width:40%;max-width:420px;display:flex;align-items:center; }
+@media (max-width:768px) { .cert-featured-img-section { width:100%;max-width:100%; } }
+.cert-featured-img-link { display:block;border-radius:1rem;overflow:hidden;border:1px solid rgba(255,255,255,0.08);transition:all 0.4s ease;box-shadow:0 8px 25px rgba(0,0,0,0.3); }
+.cert-featured-img-link:hover { border-color:rgba(66,133,244,0.4);box-shadow:0 12px 35px rgba(66,133,244,0.2);transform:scale(1.02); }
+.cert-featured-img { width:100%;height:auto;display:block;object-fit:cover; }
+.cert-featured-top-row { display:flex;align-items:center;gap:1.25rem;margin-bottom:1rem; }
+.cert-featured-badge { display:flex;flex-direction:column;align-items:center;gap:1rem;flex-shrink:0;padding-top:0.5rem; }
+.cert-featured-icon { width:5rem;height:5rem;border-radius:1.25rem;background:rgba(66,133,244,0.08);border:1px solid rgba(66,133,244,0.2);display:flex;align-items:center;justify-content:center; }
+.cert-featured-verified { display:flex;align-items:center;gap:0.375rem;font-family:var(--font-mono);font-size:0.7rem;color:#34A853;font-weight:600;letter-spacing:0.05em; }
+.cert-featured-body { flex:1;min-width:0; }
+.cert-featured-title { font-family:var(--font-display);font-size:1.75rem;font-weight:700;color:white;margin-bottom:0.5rem;letter-spacing:-0.01em; }
+.cert-featured-level { display:inline-block;padding:0.3rem 1.25rem;border-radius:9999px;font-family:var(--font-mono);font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;background:linear-gradient(135deg,#4285F4,#34A853);color:white;margin-bottom:1rem; }
+.cert-featured-recipient { font-size:1rem;color:var(--text-muted);margin-bottom:0.5rem; }
+.cert-featured-recipient strong { color:white;font-weight:600; }
+.cert-featured-desc { font-size:0.875rem;color:var(--text-dim);line-height:1.7;margin-bottom:1.5rem;max-width:36rem; }
+.cert-featured-meta-row { display:flex;gap:2.5rem;margin-bottom:2rem;flex-wrap:wrap; }
+.cert-featured-meta-item { display:flex;flex-direction:column;gap:0.25rem; }
+.cert-featured-meta-label { font-family:var(--font-mono);font-size:0.65rem;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.1em; }
+.cert-featured-meta-value { font-size:0.875rem;color:var(--text-primary);font-weight:500; }
+.cert-featured-footer { display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,0.05); }
+.cert-featured-google { display:flex;align-items:center;gap:0.75rem;font-family:var(--font-display);font-size:0.9rem;font-weight:600;color:var(--text-muted); }
+.cert-featured-verify-btn { display:inline-flex;align-items:center;gap:0.5rem;padding:0.75rem 1.5rem;border-radius:0.75rem;font-family:var(--font-mono);font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:white;background:linear-gradient(135deg,#4285F4,#0047cc);text-decoration:none;transition:all 0.3s ease; }
+.cert-featured-verify-btn:hover { transform:translateY(-2px);box-shadow:0 10px 25px rgba(66,133,244,0.3); }
+
 /* Tech Card */
 .tech-card { padding:1rem;display:flex;flex-direction:column;align-items:center;gap:0.75rem;cursor:default;width:8.5rem;flex-shrink:0; }
 .tech-card-icon-wrapper { position:relative; }

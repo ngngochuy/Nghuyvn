@@ -154,9 +154,15 @@ const projects = [
 ];
 
 const certificates = [
-  { title: "Thiết Kế Kiến Trúc Phần Mềm", issuer: "Tự Học", year: "2020-2026" },
-  { title: "Trải Nghiệm Người Dùng Tối Giản", issuer: "Kinh Nghiệm Thực Tế", year: "2020-2026" },
-  { title: "Tự Động Hóa & Tích Hợp API", issuer: "Nền Tảng Độc Lập", year: "2026" },
+  {
+    title: "Gemini Certified Student",
+    level: "University",
+    issuer: "Google for Education",
+    issued: "20/02/2026",
+    validUntil: "20/02/2029",
+    recipient: "Nguyễn Ngọc Huy",
+    url: "https://edu.google.accredible.com/c535899c-9797-42b9-9f77-35ca33a343e8#acc.0heOgyXV"
+  },
 ];
 
 const academic = {
