@@ -204,42 +204,9 @@ function renderTechStack() {
 }
 
 function initPortfolioTabs() {
-  const tabs = document.querySelectorAll('.portfolio-tab-btn-elite');
-  const panels = {
-    projects: document.getElementById('tab-projects'),
-    certificates: document.getElementById('tab-certificates'),
-    techstack: document.getElementById('tab-techstack'),
-  };
-
-  function showTab(id) {
-    tabs.forEach(t => {
-      t.classList.toggle('active', t.getAttribute('data-tab') === id);
-      const hl = t.querySelector('.portfolio-tab-highlight');
-      if (hl) hl.style.display = t.getAttribute('data-tab') === id ? 'block' : 'none';
-    });
-    Object.keys(panels).forEach(k => {
-      if (!panels[k]) return;
-      if (k === id) {
-        panels[k].style.display = 'block';
-        panels[k].style.opacity = '0';
-        panels[k].style.transform = 'translateY(20px)';
-        requestAnimationFrame(() => {
-          panels[k].style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-          panels[k].style.opacity = '1';
-          panels[k].style.transform = 'translateY(0)';
-        });
-      } else {
-        panels[k].style.display = 'none';
-      }
-    });
-    // Re-trigger scroll animations for newly shown items
-    setTimeout(() => initScrollAnimations(), 100);
-  }
-
-  tabs.forEach(t => {
-    t.addEventListener('click', () => showTab(t.getAttribute('data-tab')));
-  });
-  showTab('projects');
+  // Tabs removed — all sections are always visible now
+  // Just trigger scroll animations for the content
+  setTimeout(() => initScrollAnimations(), 100);
 }
 
 // ── Project Modal ─────────────────────────────────────────────
