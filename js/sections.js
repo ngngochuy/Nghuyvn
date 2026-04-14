@@ -85,9 +85,6 @@ function buildAcademic() {
 let activeModalProject = null;
 
 function buildPortfolio() {
-  renderProjects();
-  renderCerts();
-  renderTechStack();
   initPortfolioTabs();
   initProjectModal();
 }
@@ -187,7 +184,7 @@ function initPortfolioTabs() {
     Object.keys(panels).forEach(k => {
       if (!panels[k]) return;
       if (k === id) {
-        panels[k].style.display = '';
+        panels[k].style.display = 'block';
         panels[k].style.opacity = '0';
         panels[k].style.transform = 'translateY(20px)';
         requestAnimationFrame(() => {
