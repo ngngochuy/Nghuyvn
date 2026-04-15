@@ -29,7 +29,7 @@ Mở file **`js/data.js`** → sửa object `personal`:
 ```js
 const personal = {
   name: "Nguyễn Ngọc Huy",
-  email: "contact@nghuy.vn",
+  email: "it@nghuy.vn",
   // ...
 };
 ```

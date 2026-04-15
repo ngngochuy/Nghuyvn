@@ -9,22 +9,22 @@ const personal = {
   subtitle: "Nhà phát triển nền tảng độc lập",
   bio: "Xin chào, tôi là Nguyễn Ngọc Huy. Đam mê lớn nhất của tôi là đơn giản hóa sự phức tạp. Thay vì cố gắng tạo ra những cỗ máy khổng lồ, tôi tập trung thiết kế các giải pháp phần mềm tinh gọn, ổn định và thực sự giải quyết được bài toán thực tế.",
   bio2: "Tôi không tin vào sự phô trương của công nghệ. Một đoạn code xuất sắc không phải là đoạn code dùng công nghệ phức tạp nhất, mà là đoạn code dễ đọc nhất để đồng nghiệp sau này hiểu được. Quan điểm làm việc của tôi khá đơn giản: Tập trung sâu vào gốc rễ, giữ vững sự tĩnh lặng giữa nhịp độ nhanh của công việc, và luôn xem sản phẩm tạo ra như một phần mở rộng của chính góc làm việc của mình.",
-  email: "contact@nghuy.vn",
+  email: "it@nghuy.vn",
   website: "nghuy.vn",
   location: "Vietnam",
   links: {
-    github: "https://github.com/",
-    zalo: "https://zalo.me/",
-    facebook: "https://www.facebook.com/",
-    instagram: "https://www.instagram.com/",
-    telegram: "https://t.me/",
+    github: "https://github.com/ngngochuy/",
+    zalo: "https://zalo.me/0868281405",
+    facebook: "https://www.facebook.com/nghuyit/",
+    instagram: "https://www.instagram.com/nhuygtv/",
+    telegram: "https://t.me/ngngochuy/",
   },
 };
 
 const stats = [
-  { label: "Dự Án Lõi", value: "15", icon: "code", description: "Các dự án hệ thống cốt lõi" },
-  { label: "Nền Tảng Độc Lập", value: "5", icon: "award", description: "Nền tảng đã triển khai" },
-  { label: "Năm Kinh Nghiệm", value: "7", icon: "globe", description: "Thời gian làm việc và phát triển" },
+  { label: "Dự Án Lõi", value: "7", icon: "code", description: "Các dự án hệ thống cốt lõi" },
+  { label: "Nền Tảng Độc Lập", value: "4", icon: "award", description: "Nền tảng đã triển khai" },
+  { label: "Năm Kinh Nghiệm", value: "3", icon: "globe", description: "Thời gian làm việc và phát triển" },
 ];
 
 const skills = ["React", "JavaScript", "Node.js", "MongoDB", "PHP", "Laravel", "Python"];
