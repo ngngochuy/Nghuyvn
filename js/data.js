@@ -111,7 +111,7 @@ const projects = [
     tags: ["Automation", "Dashboard", "System"],
     image: "Images/du-an/web_submxhvn.png?v1",
     liveUrl: "https://submxh.vn",
-    status: "Bảo trì",
+    status: "Hoạt động",
     color: "#8B5CF6",
     span: 1,
   },
